@@ -1,0 +1,128 @@
+/* =============================
+	   Structure Mixins
+=============================== */
+
+//Center any element
+@mixin center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+//vertically center any element (Check browser compatability)
+@mixin vert-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/**
+ *
+ * Sets height of div to full viewport height
+ * sets fallback
+ * has optinal value for vh offset
+ *
+ * In the future, use rem/px conversion for this function
+ * in IE 9 cannot use calc with background size
+ *
+ * you have to specify a unit (i.e px, em, rem, %, vh, vw)
+ * for each param
+ */
+@mixin full-screen($fall:1000px, $offset:0, $width:100%) {
+	 display: block;
+	 width: $width;
+	//If vh isn't supported
+	height: $fall;
+	//if calc isn't supported
+	height:100vh;
+	//the goal
+	height: calc(100vh - #{$offset});
+}
+
+//Usage
+%fake-element{
+	//For Fullscreen div with default fallback & no offset
+	@include full-screen();
+
+	//To adjust fallback
+	@include full-screen(1500px);
+
+	//to adjust offset
+	@include full-screen(1500px, 62px);
+
+	//to adjust fallback, offset, and width
+	@include full-screen(1500px, 62px, 90%);
+
+}
+
+/* =============================
+	   Utility Mixins
+=============================== */
+
+//Mixin that forces transition to be rendered via the on-board graphics processor of the device
+@mixin smooth-move($x:0,$y:0,$z:0) {
+	-webkit-transform:translate3d($x,$y,$z);
+	-moz-transform:translate3d($x,$y,$z);
+	-ms-transform:translate3d($x,$y,$z);
+	transform:translate3d($x,$y,$z);
+}
+
+//Opacity Mixin with old IE fallback
+@mixin opacity($opacity) {
+	filter: alpha(opacity=($opacity * 100));
+	opacity: $opacity;
+}
+
+
+
+
+/* =============================
+	RESPONSIVE MIXIN
+=============================== */
+
+// Responsive Breakpoints | VARS
+// ===================================
+
+	$tiny:	 			em(400);
+	$small:			em( 600 );
+	$phone: 			em(767);
+	$nav: 				em(820);
+	$hidemobile:		em( 821 );
+	$tablet: 			em(1024);
+	$ipad:	  			em(1200);
+	$laptop:  			em(1400);
+	$desktop: 		em(1920);
+
+
+/*------------------------------
+* Responsive Max-Width | Mixin
+* @author Christopher Hahn
+*------------------------------*/
+//Use the VARS for the desired breakpoint
+
+@mixin respond-max($breakpoint-max) {
+	@media only screen and (max-width: $breakpoint-max ) { @content; }
+}
+
+/*------------------------------
+* Responsive Max-Width | Mixin
+* @author Christopher Hahn
+*------------------------------*/
+//Use the VARS for the desired breakpoint
+
+@mixin respond-min($breakpoint-min) {
+	@media only screen and (min-width: $breakpoint-min ) { @content; }
+}
+
+
+//If you use the custom query, PLEASE Specify what it is for!!
+@mixin respond-custom( $type,$value,$type2:null,$value2:null) {
+	@if $type2 != null{
+		@media only screen and ($type: em($value)) and ($type2: em($value2)) { @content; }
+	} @else {
+		@media only screen and ($type: em($value)) { @content; }
+	}
+
+}

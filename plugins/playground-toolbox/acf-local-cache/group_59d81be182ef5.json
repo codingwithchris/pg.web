@@ -1,0 +1,67 @@
+{
+    "key": "group_59d81be182ef5",
+    "title": "Sponsor Info",
+    "fields": [
+        {
+            "key": "field_59d81c13072bd",
+            "label": "Sponsor Link",
+            "name": "sponsor_link",
+            "type": "url",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": ""
+        },
+        {
+            "key": "field_59d81c5e19bac",
+            "label": "Sponsor Content",
+            "name": "sponsor_content",
+            "type": "wysiwyg",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "tabs": "all",
+            "toolbar": "full",
+            "media_upload": 0,
+            "delay": 0
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "sponsors"
+            }
+        ]
+    ],
+    "menu_order": 13,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": [
+        "the_content",
+        "excerpt",
+        "custom_fields",
+        "comments",
+        "author",
+        "format",
+        "tags"
+    ],
+    "active": 1,
+    "description": "",
+    "modified": 1507349873
+}
