@@ -1,0 +1,72 @@
+#show-sponsor-row .six{
+
+	@include respond-max( $small-tablet ){
+		@include span-columns( 12 );
+
+		&.-info{
+			padding-left: 0 !important;
+		}
+
+	}
+
+}
+
+#show-sponsor-row > .container > .six.-logo{
+
+	@include respond-max( $small-tablet ){
+		padding-bottom: 30px;
+	}
+
+}
+
+#show-sponsor-row .logo{
+	max-width: 300px;
+	width: 100%;
+
+	@include respond-max( $small-tablet ){
+		margin-bottom: 30px;
+		max-width: 200px;
+	}
+
+}
+
+
+
+.show-sponsor-item{
+	margin-bottom: 60px;
+	padding-bottom: 50px;
+	border-bottom: 1px solid $l-gray;
+
+	&:last-child{
+		border-bottom: none !important;
+	}
+
+}
+
+.show-sponsor-link{
+
+	transition: all .1s ease;
+
+}
+
+.show-sponsor-link:hover{
+
+	@include opacity( .7 );
+
+}
+
+.show-sponsor-content,
+.show-sponsor-link{
+
+	display: block;
+
+	@include respond-max( $small-tablet ){
+
+		margin: 0 auto;
+		max-width: 550px;
+		text-align:center;
+
+	}
+
+
+}

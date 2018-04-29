@@ -1,0 +1,57 @@
+.mc4wp-form input{
+
+	&:active,
+	&:focus{
+	    outline:none;
+	}
+
+}
+
+.mc4wp-form .form-field,
+.mc4wp-form .submit-button{
+	border: none !important;
+	font-family: $font_main;
+	font-weight: 300;
+	transition: background .2s ease-in-out;
+
+	&:active,
+	&:focus{
+	    box-shadow: none;
+	    border: none;
+	}
+
+}
+
+
+.mc4wp-form .form-field{
+	border-radius: 4px;
+	padding: 12px 12px 12px 19px;
+
+	&.-bg-white{
+		background-color: white;
+
+		&:focus{
+		    background: darken( $l-gray, 3% );
+	    }
+
+	}
+
+
+}
+
+
+.mc4wp-form .submit-button{
+	font-size: 14px;
+	text-transform: uppercase;
+
+	&.-bg-green{
+		background-color: $l-green;
+		color:white;
+
+		&:hover{
+		    background: $green;
+	    }
+
+	}
+
+}

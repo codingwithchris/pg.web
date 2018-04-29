@@ -1,0 +1,115 @@
+/**
+ * The following code will allow us to build flexible
+ * buttons with the least amount of code.  This method is scalable
+ * and totally themeable to fit any design need.  As of now, this is
+ * best practice for building your site buttons.  If you have
+ * suggestions for improvements, please talk to Chris!
+ *
+ * @note All of the values entered below are for example
+ * purposes only.  Feel free to change anything you need
+ * to fit your theme styles!
+ *
+ * @depend Bourbon
+ * @depend define a btn-font mixin in _typography
+ * @since 1.0.1
+ * @author Christopher Hahn
+ *
+ */
+
+
+ /**
+  * Declare your button variables
+  */
+
+  	//base
+  	$btn_pad: em( 15 ) em( 30 );
+  	$btn_border_rad: 50px;
+
+	//transitions
+	$btn-transition: .15s ease-in-out;
+
+	//Button State Colors
+	$hover-white: rgba( white, .15 );
+
+// base styles for all buttons
+.btn,
+button{
+
+	@include btn-font;
+	border: 2px solid transparent;
+	border-radius: $btn_border_rad;
+	padding: $btn_pad;
+	transition: $btn-transition;
+	display: inline-block;
+
+
+	&:hover,
+	&:focus{
+		background: $green;
+	}
+
+	&:active{
+		background: darken( $green, 5% );
+	}
+
+}
+
+.btn.-bold{
+	font-weight: bold;
+}
+
+
+//Build button mixin with values we can enter to output beutiful, cleanly coded buttons
+@mixin button ( $bg:null, $bg-hover:null, $border-color:null, $border-hover:null, $color:null, $hover_color:null ){
+
+	background: $bg;
+	border-color: $border-color;
+	color: $color;
+
+	&:hover,
+	&:focus{
+
+		background: $bg-hover;
+		border-color: $border-hover;
+		color: $hover_color;
+	}
+
+	&:active{
+
+		 @if  $bg-hover != null {
+			background: darken( $bg-hover, 5% );
+		}
+
+	}
+
+}
+
+/**
+ * BUILD THE ACTUAL BUTTONS TO OUTPUT ON THE SITE
+ *
+ * @params
+ *
+ * 1. color
+ * 2. color:hover
+ * 3. border-color
+ * 4. border-color:hover
+ * 5. background:hover
+ *
+ */
+
+//Green Button Style
+
+.btn.-green{
+	@include button( $l-green, $green, '', '', white );
+}
+
+
+//Inverted Button Style
+.btn.-invert{
+	@include button( transparent, $l-green, $l-green, $l-green, white );
+}
+
+//White Button Style
+.btn.-notice{
+	@include button( $d-green, $m-green, $d-green, $m-green,  white );
+}

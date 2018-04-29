@@ -1,0 +1,58 @@
+// Global Date Range Styles
+.date-range{
+
+	>.start-date,
+	>.end-date{
+		display: inline-block;
+	}
+
+}
+
+// Show Feed Header Date Range
+.pg-post-item .post-header{
+
+	// Show Date Range Display
+
+	> .date-range{
+		float: right;
+		margin-top: -32px;
+
+			@include respond-max( 700px ){
+				float: none;
+				margin-top:-3px;
+			}
+
+		> .start-date,
+		> .end-date{
+
+			@include respond-max( 700px ){
+				font-weight: bold;
+			}
+
+		}
+
+	}
+
+}
+
+// Single Show Date Range
+
+#single-show-header .date-range{
+	float: right;
+	margin-bottom: 15px;
+
+	@include respond-max( 600px ){
+		margin-top: 20px;
+		float: none;
+	}
+
+	>.start-date,
+	>.end-date{
+		color: white;
+	}
+
+	> .start-date{
+		margin-left: 10px;
+	}
+
+}

@@ -1,0 +1,3 @@
+<?php
+// Do you think theatre it...
+wolf_get_page_view( 'privacy', '_privacy', 'policy' );

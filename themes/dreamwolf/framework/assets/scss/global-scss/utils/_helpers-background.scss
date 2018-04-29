@@ -1,0 +1,107 @@
+// BG Helpers
+// ===============================================
+
+._bgCover-seo{
+   position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+}
+
+._bgCover-seo-img{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: -9999px;
+	bottom: -9999px;
+	margin: auto 0;
+	width: 100%;
+	transform: none;
+}
+
+._bgCover{
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+
+._bgCol-400{
+    min-height: 400px;
+
+     @include respond-max( 850px ){
+	    min-height: 250px;
+    }
+
+}
+
+._bgCol-500{
+    min-height: 500px;
+
+     @include respond-max( 850px ){
+	    min-height: 250px;
+    }
+
+}
+
+._bgCol-600{
+    min-height: 600px;
+
+    @include respond-max( 850px ){
+	    min-height: 350px;
+    }
+
+}
+
+._bgCol-700{
+    min-height: 700px;
+
+
+     @include respond-max( 850px ){
+	    min-height: 425px;
+    }
+
+}
+
+._bgCol-800{
+    min-height: 800px;
+
+     @include respond-max( 850px ){
+	    min-height: 400px;
+    }
+
+}
+
+._bg-overlay-white{
+
+	&:before{
+		background-color: white;
+		@include opacity( .75 );
+	}
+}
+
+._bg-overlay-gray{
+
+	&:before{
+		background-color: $d-gray;
+		@include opacity( .6 );
+	}
+}
+
+._bg-overlay-m-gray{
+
+	&:before{
+		background-color: $d-gray;
+		@include opacity( .75 );
+	}
+}
+
+
+._bg-overlay-d-gray{
+
+	&:before{
+		background-color: $d-gray;
+		@include opacity( .9 );
+	}
+}

@@ -1,0 +1,31 @@
+.playground-mailchimp-form .btn{
+	border-radius: 4px;
+	font-weight: bold;
+}
+
+.playground-mailchimp-form .btn.-block{
+	width: 100%;
+}
+
+.mc4wp-form .field-group{
+	display: block;
+}
+
+.mc4wp-form .field-group.-last{
+	margin-bottom: 30px;
+}
+
+.mc4wp-form .field-group > .form-field{
+	display: block;
+	margin-bottom:20px;
+	width: 100%;
+}
+
+.mc4wp-form .field-group.-half{
+	float: left;
+	width: 48%;
+}
+
+.mc4wp-form .field-group.-half.-left-half{
+	margin-right:4%;
+}

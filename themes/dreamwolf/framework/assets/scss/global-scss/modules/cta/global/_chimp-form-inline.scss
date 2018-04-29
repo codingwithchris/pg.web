@@ -1,0 +1,51 @@
+//
+// Styles Applied to Email Entry and Submit Button
+//
+#mc4wp-form-1{
+	margin-top:40px;
+	text-align:center;
+}
+
+.playground-news-subscribe > .form-field,
+.playground-news-subscribe > .submit-button{
+	border-radius: 0 !important;
+	height: 50px;
+	position: relative;
+
+    @include respond-max( 550px ){
+		max-width: 100%;
+		width: 100% !important;
+		left: 0 !important;
+		top: 0 !important;
+		margin-bottom: 10px;
+	}
+
+
+}
+
+//
+// Email Entry Field
+//
+.playground-news-subscribe > .form-field{
+	   width: 425px;
+
+	   @include respond-max( $phone ){
+		width: 375px;
+	   }
+
+	     @include respond-max( 629px ){
+		width: 300px;
+	   }
+
+}
+
+//
+// Submit Button
+//
+.playground-news-subscribe > .submit-button{
+   width: 170px;
+   position: relative;
+   left: -5px;
+   padding-top: 4px;
+
+}

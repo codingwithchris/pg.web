@@ -1,0 +1,22 @@
+{
+  "name": "playground",
+  "version": "1.0.0",
+  "description": "A Custom Build for The Playground Theatre",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://CodeWolfSeven@github.com/CodeWolfSeven/playground-core-site.git"
+  },
+  "author": "Code Wolf Seven",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CodeWolfSeven/playground-core-site/issues"
+  },
+  "homepage": "https://github.com/CodeWolfSeven/playground-core-site#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}

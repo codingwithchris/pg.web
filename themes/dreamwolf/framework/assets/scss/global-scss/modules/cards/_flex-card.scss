@@ -1,0 +1,110 @@
+// Flex Card Base
+// ============
+
+.flex-cards-container,
+.flex-card{
+	display: flex;
+}
+
+.flex-cards-container{
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.flex-card-outer{
+	margin-bottom:12px;
+	padding-left: 6px;
+	padding-right:6px;
+
+	&.-half{
+		@include respond-min( $tablet ){
+			width: 50%;
+		}
+	}
+
+}
+
+.flex-card-inner{
+      box-shadow: 0 1px 1px rgba(0,0,0,0.3);
+      border-radius: 3px;
+      display: flex;
+	padding:0;
+	position: relative;
+	align-items: center;
+	text-align: left;
+	width: 100%;
+}
+
+.flex-card-content-container{
+	padding: 15px;
+	display: table;
+
+}
+
+.flex-card-content-container > .flex-card-media{
+	margin-right: 25px;
+
+	@include respond-min( $tablet ){
+		float: left;
+	}
+
+}
+
+.flex-card-content-container > .flex-card-info{
+
+		display: table-cell;
+		width: 10000px;
+		vertical-align: middle;
+
+}
+
+.flex-card-media{
+	display: block;
+	padding: 5px;
+	margin:0;
+	width: 100px;
+	position: relative;
+}
+
+.flex-card-media > .badge {
+	display: block;
+	padding: 5px;
+	margin:0;
+	width: 100px;
+	position: relative;
+}
+
+.flex-card-media > .badge > .badge-img{
+    display: block;
+    height: 100%;
+    width: 100%;
+
+    &.-circle{
+	       border-radius: 50%;
+    }
+
+}
+
+// Artist Feed Cards on Show Pages
+// =========================
+.flex-card-content-container > .artist-name{
+	font-weight: 900;
+}
+
+
+
+.flex-card-bio{
+	bottom: 20px;
+	display: block;
+	position: absolute;
+	right: 20px;
+	text-transform: uppercase;
+
+	h6{
+		transition: all .1s ease;
+	}
+
+	&:hover h6 {
+		color: $green;
+	}
+}

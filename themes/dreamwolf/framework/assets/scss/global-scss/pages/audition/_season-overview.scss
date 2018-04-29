@@ -1,0 +1,35 @@
+#audition-season-overview{
+	margin-top: 20px;
+
+	> .show{
+		background-size: cover;
+		background-position: center center;
+		padding: 70px 25px;
+		min-height:350px;
+		border-bottom:7px solid $l-green;
+
+		&:before{
+			background-color: rgba( $d-gray, .9 );
+		}
+
+		@include respond-max( $tablet ){
+			@include fill-parent();
+			min-height: 250px;
+			margin-bottom: 20px;
+		}
+
+
+	}
+
+	>.show > .date{
+		margin-bottom:50px;
+	}
+
+	>.show > .date,
+	> .show > .title,
+	> .show > .btn{
+		position: relative;
+	}
+
+
+}

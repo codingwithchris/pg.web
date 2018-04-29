@@ -1,0 +1,92 @@
+// Text Color Helpers
+// ======================
+._white{
+	color: white;
+}
+
+._l-green{
+	color: $l-green;
+}
+
+._green{
+	color: $green;
+}
+
+._l-gray{
+	color: $l-gray;
+}
+
+._gray{
+	color: $m-gray;
+}
+
+._d-gray{
+	color: $d-gray;
+}
+
+// Bg Color Helpers
+// =================
+._bg-white{
+	background-color: white;
+}
+
+._bg-l-green{
+	background-color: $l-green;
+}
+
+._bg-green{
+	background-color: $green;
+}
+
+._bg-m-green{
+	background-color: $m-green;
+}
+
+._bg-d-green{
+	background-color: $d-green;
+}
+
+._bg-l-gray{
+	background-color: $l-gray;
+}
+
+._bg-gray{
+	background-color: $m-gray;
+}
+
+._bg-d-gray{
+	background-color: $d-gray;
+}
+
+// Text Decoration Helpers
+// ===================
+
+._under-green{
+	border-bottom: 2px solid $green;
+	padding-bottom: 3px;
+}
+
+._left-green{
+	border-left: 2px solid $green;
+	padding-left: 3px;
+}
+
+._under-gray{
+	border-bottom: 2px solid $m-gray;
+	padding-bottom: 3px;
+}
+
+._under-white{
+	border-bottom: 2px solid white;
+	padding-bottom: 3px;
+}
+
+._under-d-gray{
+	border-bottom: 2px solid $d-gray;
+	padding-bottom: 3px;
+}
+
+._under-l-gray{
+	border-bottom: 2px solid $l-gray;
+	padding-bottom: 3px;
+}

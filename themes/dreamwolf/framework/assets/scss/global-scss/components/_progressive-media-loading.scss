@@ -1,0 +1,28 @@
+.aspect-ratio-fill {
+	background: $d-gray;
+	position: relative;
+}
+
+.ProgressiveMedia,
+.ProgressiveMedia-canvas,
+.ProgressiveMedia-image {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	left: 0;
+	top: 0;
+}
+
+.ProgressiveMedia-image {
+	transition: opacity 1s;
+	opacity: 0;
+	z-index: 1;
+}
+
+.ProgressiveMedia-image.isLoaded {
+	opacity: 1;
+}
+
+.ProgressiveMedia-thumbnail{
+	display: none;
+}

@@ -1,0 +1,21 @@
+/**
+ * The files imported directly
+ * below this comment block
+ * must be loaded in the order
+ * specified due to variable and
+ * mixin dependencies within the
+ * Bourbon Stack.  Do NOT Re-arrange.
+ *
+ * If you want to use bourbon, install the bourbon
+ * packages in the libs folder and then un-comment
+ * the two bourbon imports below
+ *
+ * @since 1.0.1
+ */
+
+// THIS SET OF IMPORTS SHOULD BE INCLUDED IN EVERY
+// PER-PAGE SITE STYLWE GOING FORWARD
+@import 'bourbon-stack*/bourbon/_bourbon';
+@import 'vars*/*loader';
+@import 'bourbon-stack*/bourbon-neat/_neat';
+@import 'mixins*/*loader';

@@ -1,0 +1,21 @@
+// CTA BASE SETTINGS
+// =============================
+
+
+// CTA BASE STYLES
+// =====================
+.cta-row{
+	background-position: left center;
+}
+
+
+// Element Positioning - elements will be covered by overlay
+// if not set to position rel
+.cta-row > .container > .title,
+.cta-row > .container > .subtitle{
+	position: relative;
+}
+
+.cta-row > .container > .subtitle{
+	margin: 0px 0px 50px 0px;
+}

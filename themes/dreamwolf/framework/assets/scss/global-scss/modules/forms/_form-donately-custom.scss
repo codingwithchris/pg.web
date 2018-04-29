@@ -1,0 +1,76 @@
+// Local Styles
+// ==============================
+.donately-form-head{
+	padding: em( 25 );
+	border-bottom:3px solid #5DA460;
+}
+
+.donately-form-head >.title {
+	font-size: rem( 40 );
+}
+
+.donately-form-head > .title,
+.donately-form-head > .descr{
+	color:white !important;
+}
+
+#donately-form-wrapper{
+	background-color:#303030;
+	padding:em( 20 );
+}
+
+// Remote Styles
+// ======================
+
+.donately-btn{
+    width: 100%;
+    background: #5DA460 !important;
+    font-family: $font_main;
+    text-shadow: none !important;
+    font-weight: 400 !important;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    padding-top: 15px !important;
+    padding-bottom:15px !important;
+    border-radius: 0;
+    transition: all .25s ease-in-out;
+  }
+
+  .donately-btn:hover,
+  .donately-btn:focus{
+      background:#428D4B !important;
+  }
+
+  fieldset input,
+  fieldset textarea{
+    border: none !important;
+    border-radius:0 !important;
+    transition: all .25s ease-in-out;
+  }
+
+  fieldset input:focus,
+  fieldset textarea:focus{
+    background: #f2f2f2;
+    border: none !important;
+    box-shadow: none !important;
+    outline: none !important;
+  }
+
+  .donately-first-name-group label.donately-label,
+  .donately-last-name-group label.donately-label,
+  .donately-email-fields label.donately-label,
+  .donately-comment-fields label.donately-label,
+   .donately-zip-code-group label{
+    display:none !important;
+  }
+
+  .donately-thank-you p,
+  .donately-share-header,
+  .donately-donation-frequency label{
+      color:white !important;
+  }
+
+  .donately-zip-code-group{
+	  padding-right: 0 !important;
+	  width: 100% !important;
+  }

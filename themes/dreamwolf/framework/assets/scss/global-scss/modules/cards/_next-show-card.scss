@@ -1,0 +1,92 @@
+.home .next-show-item{
+	margin-top: 55px;
+}
+
+.next-show-item{
+	position: relative;
+	max-width: 450px;
+	margin: 0 auto;
+	height: 100px;
+	background: white;
+}
+
+.next-show-item .pre-txt{
+	position: absolute;
+	top:-20px;
+	left: 0;
+}
+
+.next-show-item > .image-link,
+.next-show-item > .image-link > .image{
+	background: $d-gray;
+	left: 0;
+	top: 0;
+	float: left;
+
+
+	@include respond-max( 337px ){
+		position: absolute;
+		@include opacity( .7 );
+	}
+
+}
+
+.next-show-item > .inner-container{
+	position: relative;
+	text-align: left;
+	padding: 10px 10px 10px 15px;
+	float: left;
+
+	@include respond-max( 337px ){
+		float: right;
+		padding: 10px 5px 5px 5px;
+	}
+
+}
+
+.next-show-item > .inner-container > .item-upper{
+
+	> .title{
+		color: $gray;
+		font-size: rem( 13 );
+		font-weight: bold;
+		margin-bottom: 0;
+	}
+
+	> .dates{
+		margin-bottom: 6px;
+	}
+
+}
+
+
+.next-show-item > .inner-container > .item-upper > .dates{
+
+	> .start,
+	>.end{
+		font-size: rem( 12 );
+		display: inline-block;
+		margin-bottom: 0;
+	}
+
+}
+
+.next-show-item > .inner-container > .item-lower{
+	margin: 7px 0px 0px 0px;
+	padding: 0;
+	float: left;
+}
+
+.next-show-item > .inner-container > .item-lower > .link{
+	    font-size: rem( 14 );
+	    float: left;
+
+	    &.-season{
+		  margin-left: 27px;
+	    }
+
+}
+
+.next-show-item > .inner-container > .item-lower > .link > a > i{
+	margin-right: 8px;
+}

@@ -1,0 +1,15 @@
+// ===========================
+ //	Type  | Font Imports
+// ===========================
+// This compressed file is output in our dist folder but is not directly enqueued from there
+// We will manually copy and paste this to the VERY beginning of our style.css sheet in our parent theme
+// so it gets pulled in first!
+
+// The below code references http://www.paulirish.com/2009/bulletproof-font-face-implementation-syntax/
+
+@font-face {
+  font-family: 'Grunge';
+  src: url('https://vyto8sfq6j-flywheel.netdna-ssl.com/wp-content/themes/dreamwolf/framework/assets/fonts/pg-grunge-h1-webfont.eot?') format('eot'), url('https://vyto8sfq6j-flywheel.netdna-ssl.com/wp-content/themes/dreamwolf/framework/assets/fonts/pg-grunge-h1-webfont.woff') format('woff'), url('https://vyto8sfq6j-flywheel.netdna-ssl.com/wp-content/themes/dreamwolf/framework/assets/fonts/pg-grunge-h1-webfont.ttf') format('truetype');
+  font-style:normal;
+  font-weight: 800;
+}

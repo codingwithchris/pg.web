@@ -1,0 +1,149 @@
+// Create the Grid for The Playground Theatre
+// ==================================
+
+
+// Row ( Outer-most content band )
+// ============================
+.row{
+	display: block;
+}
+
+// Container ( Bourbon neat parent )
+// =================================
+
+.container{
+
+	@include outer-container( 100% );
+
+	&.-max{
+		@include outer-container();
+	}
+
+	&.-width{
+		width: $site-width;
+	}
+
+	&.-small{
+		@include outer-container( 850px );
+	}
+
+}
+
+
+
+// Build Columns ( Bourbon Neat )
+// =================================
+// Based on a 12 columns Grid
+// -----------------------------------------------------------
+
+.-fill{
+	@include fill-parent();
+}
+
+// Twelve Columns
+// =========================
+.twelve{
+	@include span-columns( 12 );
+}
+
+// EIght Columns
+// =========================
+.eight{
+	@include span-columns( 8 );
+}
+
+
+// Six Columns
+// =========================
+.six{
+	@include span-columns( 6 );
+
+	&.-omega-n{
+		@include omega( 2n );
+	}
+
+	// Responsive
+	@include respond-max( $small ){
+		@include fill-parent();
+		@include omega();
+	}
+}
+
+// Four Columns
+// ========================
+.four{
+	@include span-columns( 4 );
+
+	&.-omega-n{
+		@include omega( 3n );
+	}
+
+	&.-omega{
+		@include omega();
+	}
+
+}
+
+
+// Three Columns
+// ======================
+.three{
+	@include span-columns( 3 );
+
+	&.-omega-n{
+		@include omega( 4n );
+	}
+
+	// Responsive
+	@include respond-max( $tablet ){
+		@include span-columns( 6 );
+		@include omega( );
+	}
+
+}
+
+// Two Columns
+// ======================
+.two{
+	@include span-columns( 2 );
+
+	&.-omega-n{
+		@include omega( 6n );
+	}
+}
+
+// All Columns
+// ======================
+.one,
+.two,
+.three,
+.four,
+.six,
+.eight,
+.twelve{
+
+	&.-omega{
+		@include omega();
+	}
+
+	@include respond-max( $small ){
+		@include fill-parent();
+	}
+
+}
+
+
+// Playground Posts Feed Grid
+// =============================
+
+.post-type-archive-shows .shows-inner-wrapper,
+.tax-season .shows-inner-wrapper{
+	@include outer-container( 1000px );
+	width: $site-width;
+}
+
+
+
+
+
+

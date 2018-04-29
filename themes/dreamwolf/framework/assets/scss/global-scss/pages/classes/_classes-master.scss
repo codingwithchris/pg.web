@@ -1,0 +1,31 @@
+.acting-class-intensive-overview .six,
+.acting-class-calling .six{
+
+		@include respond-max( 850px ){
+			display: block;
+			float: none;
+			width:100%;
+		}
+}
+
+.acting-class-intensive-overview .six._ptl,
+.acting-class-calling .six._ptl{
+	@include respond-max( 1000px ){
+		padding-top: 80px;
+	}
+
+	@include respond-max( 850px ){
+		padding-bottom: 80px;
+	}
+
+}
+
+.acting-class-intensive-overview .six._plm._prs,
+.acting-class-calling .six._pls._prm{
+
+	@include respond-max( 850px ){
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+
+}

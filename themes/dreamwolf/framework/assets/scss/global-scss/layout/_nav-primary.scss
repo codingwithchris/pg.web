@@ -1,0 +1,78 @@
+// Build the Main Navigation for The Playground SIte
+// ========================================
+
+//===============================
+// Navigation Base Structure
+// ===============================
+
+// Outer-most Nav Wrapper
+.playground-navbar{
+	background: $d-gray;
+	box-shadow: 0px 2px 3px rgba(0,0,0,.5);
+	clear:both;
+	display: block;
+	position: relative;
+	width: 100%;
+	z-index: 100;
+}
+
+.playground-navbar-inner{
+	height:65px;
+}
+
+// nav element
+#site-navigation,
+#primary-menu{
+	display: block;
+	float: right;
+	width: auto;
+}
+
+#primary-menu{
+	margin:0;
+	padding: 0;
+}
+
+
+// ============================
+// BASE NAVIGATION LINK SETTINGS
+// ============================
+$nav_link_padding: 27px 15px 23px 15px;
+$nav_current_menu_underline:  inset 0 -2px 0 0 $el-green;
+
+
+// ===========================
+// BASE NAVIGATION LINK BUILD
+// ===========================
+
+
+//
+// Links
+//
+#primary-menu > li >a{
+	@include nav-font;
+	color: white;
+	font-size: 11px;
+	padding: $nav_link_padding;
+}
+
+//
+// Current Menu Item
+//
+
+//Style appearence of the current page menu item
+#primary-menu > li.current-menu-item,
+
+// Force The Show Menu item to be selected on show archive and single show pages
+.post-type-archive-shows #primary-menu > li#menu-item-689,
+.single-shows #primary-menu > li#menu-item-689{
+
+	a {
+	   	font-weight: bold;
+	}
+
+}
+
+
+
+

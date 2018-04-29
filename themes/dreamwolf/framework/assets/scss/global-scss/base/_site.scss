@@ -1,0 +1,32 @@
+html.lightcase-open{
+
+	overflow-y: hidden;
+
+}
+
+
+body{
+	background: $d-gray;
+	overflow-x: hidden;
+}
+
+#masthead{
+	width: 100%;
+	z-index: 100;
+
+	@include respond-max( $nav ){
+		display: none !important;
+	}
+
+}
+
+.playground-main,
+footer{
+	display: block;
+}
+
+a{
+	&:focus{
+		outline: none !important;
+	}
+}

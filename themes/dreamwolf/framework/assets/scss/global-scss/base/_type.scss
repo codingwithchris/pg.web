@@ -1,0 +1,292 @@
+/**
+ * NAME : TYPOGRAPGY
+ *
+ * This page contains all of our typography settings
+ * and builds!
+ *
+ */
+// ==========================
+//	Type  | Vars
+// ==========================
+	//Font Main = Open Sans
+	$font_main: "Open Sans", sans-serif;
+
+	// Grunge Var
+	$font_grunge: 'Grunge', $font_main;
+
+	//
+	// Structure Vars
+	//
+
+
+
+// ===========================
+//	 Type  | Defualt Settings
+// ===========================
+
+
+// ===========================
+//	Type  | Mixins
+// ===========================
+
+//
+// Define default button font styles
+//
+
+@mixin btn-font{
+	font-family: $font_main;
+	font-size: rem( 12 );
+	font-weight: 400 ;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+
+	@include respond-max( 500px ){
+		letter-spacing: 1px;
+	}
+
+}
+
+
+//
+// Define default nav font styles
+//
+
+ @mixin nav-font{
+	font-family: $font_main;
+	font-size: rem( 12 );
+	font-weight: 400 ;
+	letter-spacing: 4px;
+	text-transform: uppercase;
+}
+
+
+// =========================
+// Build | Typography Base
+// =========================
+
+
+body{
+	font-family: $font_main;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+.menu-item > a,
+.btn{
+	 margin-top: 0;
+	 -webkit-font-smoothing: antialiased;
+	 -moz-osx-font-smoothing: grayscale;
+	 text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+	 text-rendering: optimizeLegibility;
+}
+
+
+
+// 				<h1>
+// =========================
+
+.h1{
+
+	 text-transform: uppercase;
+
+	 //
+	 // Cool Grungy Font
+	 //
+
+	 &.-grunge{
+	 	font-family: $font_grunge;
+	 	font-size: rem( 55 );
+	 	letter-spacing: rem( 10 );
+	 	line-height: 1.3;
+	 	margin-bottom: rem( 10 );
+
+	 	// RESPONSIVE //
+	 	// ========= //
+
+	 	 @include respond-max( $tablet ){
+			 font-size: rem( 40 );
+		 }
+
+		  @include respond-max( $phone ){
+			 font-size: rem( 30 );
+		 }
+
+	 }
+
+	 //
+	 // Default Open Sans Font
+	 //
+
+	 &.-sans{
+	 	font-family: $font_main;
+	 	font-size: rem( 40 );
+	 	font-weight: 300;
+	 	letter-spacing: rem( 5 );
+	 	line-height: 1.2;
+	 	margin-bottom: rem( 15 );
+
+	 	// RESPONSIVE //
+	 	// ========= //
+
+	 	 @include respond-max( $tablet ){
+			 font-size: rem( 28 );
+		 }
+
+		  @include respond-max( $phone ){
+			 font-size: rem( 23 );
+		 }
+
+	 }
+
+}
+
+
+
+// 				<h2>
+// =========================
+h2,
+.h2{
+	font-size: rem( 30 );
+	font-weight: 700;
+	letter-spacing: rem( 5 );
+	text-transform: uppercase;
+	margin-bottom: rem( 15 );
+
+	 &.alt{
+		 font-family: $font_main;
+		 font-weight: 300 !important;
+		 text-transform: none;
+	 }
+
+	  @include respond-max( $nav ){
+		 font-size: rem( 24 );
+	 }
+
+	 @include respond-max( $small ){
+		 font-size: rem( 19 );
+	 }
+
+}
+
+
+
+// 				<h3>
+// =========================
+h3,
+.h3{
+	font-size: rem( 27 );
+	font-weight: 300;
+	letter-spacing: rem( 1 );
+	line-height: 1.7;
+	margin-bottom: rem( 17 );
+	text-transform: uppercase;
+
+	  @include respond-max( $phone ){
+		 font-size: rem( 19 );
+	 }
+
+}
+
+
+
+// 				<h4>
+// =========================
+h4,
+.h4{
+	font-size: rem( 20 );
+	font-weight: 700;
+	letter-spacing: rem( 3 );
+	text-transform: uppercase;
+	margin-bottom: rem( 15 );
+
+	  @include respond-max( $phone ){
+		 font-size: rem( 17 );
+	 }
+
+}
+
+
+
+// 				<h5>
+// =========================
+// -----------    Thin - Italic - Slighly bigger than h6 -------- /
+h5,
+.h5{
+	font-size: rem( 19 );
+	font-style: italic;
+	font-weight: 400;
+	letter-spacing: rem( 3 );
+	line-height: 1.5;
+	margin-bottom: rem( 12 );
+
+	@include respond-max( $phone ){
+		 font-size: rem( 16 );
+	 }
+
+}
+
+
+
+// 				<h6>
+// =============================================
+// -----------    Bold - Slighly bigger than paragraph  -------- /
+h6,
+.h6{
+	font-size: rem( 17 );
+	font-weight: 600;
+	line-height: 1.4;
+	letter-spacing: rem( 1 );
+	margin-bottom: rem( 10 );
+
+}
+
+
+
+// 				<p>
+// =========================
+p{
+    font-size: rem( 15 );
+    font-weight: 400;
+    line-height: 1.6;
+    margin-bottom: rem( 16 );
+
+    &.-larger{
+	    font-size: rem( 17 );
+    }
+
+    &.-quote{
+	    font-size: rem( 19 );
+    }
+
+	  @include respond-max( $tablet ){
+		 font-size: rem( 14 );
+		 line-height: 1.8;
+	 }
+
+}
+
+
+// 			<span>
+// =========================
+span{
+	display: inline-block;
+}
+
+
+
+
+// <blockquote>
+// =========================
+blockquote{
+
+}
+
+
+.-x-small{
+	font-size: 80%;
+}

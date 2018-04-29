@@ -1,0 +1,21 @@
+// base Vars
+$spotify-bg-overlay-color: rgba( $l-green, .80 );
+
+
+
+// ========================================
+// 02.	GLOBAL HEADER SETTINGS & STYLES
+// ========================================
+#show-spotify-row{
+
+	>.container{
+		position: relative;
+	}
+
+
+	// Overlay
+	&:before{
+		background-color: $spotify-bg-overlay-color;
+	}
+
+}

@@ -1,0 +1,6 @@
+// A Show is set to currently Playing - Change Width and Border Colors
+.post-type-archive-shows .pg-post-item.-playing,
+.tax-season .pg-post-item.-playing{
+	box-shadow: 1px 1px 7px 0 rgba( $gray, .4 );
+	border-color: $l-green;
+}

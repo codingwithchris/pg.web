@@ -1,0 +1,24 @@
+
+//
+// Submission Response
+//
+.mc4wp-alert{
+    color:white;
+    padding: 20px;
+    position: relative;
+    text-align: center;
+
+    &.mc4wp-error{
+	    background: $gray;
+    }
+
+    &.mc4wp-success{
+	    background: $green;
+    }
+
+    >p{
+	      font-weight: 400;
+    }
+
+
+}

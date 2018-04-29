@@ -1,0 +1,69 @@
+._bring-to-front{
+	position: relative !important;
+	z-index: 100;
+}
+
+._clear-b{
+	clear: both;
+}
+
+// Visually hide text but still make it visible to screen readers
+// ===============================================
+._visually-hidden{
+    overflow: hidden;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+}
+
+// Used on ghost elements that have an id that the nav needs to scroll to
+// ========================================================
+._offset{
+
+	&:focus{
+		outline: none !important;
+	}
+
+	&:before{
+	   display: block;
+	  content: " ";
+	  height: 127px;      /* Give height of your fixed element */
+        margin-top: -127px; /* Give negative margin of your fixed element */
+        visibility: hidden;
+	}
+}
+
+// Max Width Helpers
+// ===============
+
+._width-max-1000{
+	max-width: 1000px;
+}
+
+._width-max-900{
+	max-width: 900px;
+}
+
+._width-max-800{
+	max-width: 800px;
+}
+
+._width-max-700{
+	max-width: 700px;
+}
+
+._width-max-600{
+	max-width: 600px;
+}
+
+._width-max-500{
+	max-width: 500px;
+}
+
+._width-max-400{
+	max-width: 400px;
+}

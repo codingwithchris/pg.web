@@ -1,0 +1,63 @@
+//===============================
+// SOCIAL Nav Element Base Structure
+// ===============================
+.nav-social-trigger,
+#nav-social{
+	float: left;
+	width: auto;
+	display: block;
+
+	// Temporary comment out until Iget the social JS Dropdown Implemented
+	// Hide Social Links
+	//@include respond-max( $nav ){
+		//display: none;
+	//}
+
+	// Temporary hide until I get the social dropdown JS implemented
+	@include respond-max( '916px' ){
+		display: none;
+	}
+
+
+}
+
+.nav-social-trigger{
+	display: none;
+}
+
+
+#nav-social > ul >li,
+#nav-social > ul >li  >a{
+	float: left;
+}
+
+
+//===============================
+// SOCIAL Nav Trigger Base Structure
+// ===============================
+
+
+// =========================
+// SOCIAL NAV SETTINGS
+// =========================
+
+$social_nav_link_padding: 24px 25px 17px 25px;
+
+// =========================
+// SOCIAL NAV BUILD
+// =========================
+
+//
+// Lnks
+//
+#nav-social > ul >li  >a{
+	padding: $social_nav_link_padding;
+}
+
+//
+// Icons
+//
+#nav-social > ul >li  >a >i{
+	color: white;
+	font-size: 18px;
+}

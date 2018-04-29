@@ -1,0 +1,76 @@
+/* =============================
+	   Structure Mixins
+=============================== */
+
+//Center any element
+@mixin center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+//vertically center any element (Check browser compatability)
+@mixin vert-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/**
+ *
+ * Sets height of div to full viewport height
+ * sets fallback
+ * has optinal value for vh offset
+ *
+ * In the future, use rem/px conversion for this function
+ * in IE 9 cannot use calc with background size
+ *
+ * you have to specify a unit (i.e px, em, rem, %, vh, vw)
+ * for each param
+ */
+@mixin full-screen($fall:1000px, $offset:0, $width:100%) {
+	 display: block;
+	 width: $width;
+	//If vh isn't supported
+	height: $fall;
+	//if calc isn't supported
+	height:100vh;
+	//the goal
+	height: calc(100vh - #{$offset});
+}
+
+//Usage
+%fake-element{
+	//For Fullscreen div with default fallback & no offset
+	@include full-screen();
+
+	//To adjust fallback
+	@include full-screen(1500px);
+
+	//to adjust offset
+	@include full-screen(1500px, 62px);
+
+	//to adjust fallback, offset, and width
+	@include full-screen(1500px, 62px, 90%);
+
+}
+
+/* =============================
+	   Utility Mixins
+=============================== */
+
+//Mixin that forces transition to be rendered via the on-board graphics processor of the device
+@mixin smooth-move($x:0,$y:0,$z:0) {
+	-webkit-transform:translate3d($x,$y,$z);
+	-moz-transform:translate3d($x,$y,$z);
+	-ms-transform:translate3d($x,$y,$z);
+	transform:translate3d($x,$y,$z);
+}
+
+//Opacity Mixin with old IE fallback
+@mixin opacity($opacity) {
+	filter: alpha(opacity=($opacity * 100));
+	opacity: $opacity;
+}

@@ -1,0 +1,64 @@
+.audition-show-row ._flex-row-container{
+
+	@include respond-max($med-tablet){
+		flex-direction: column;
+	}
+
+}
+
+.audition-show-row ._flex-half{
+
+	@include respond-max($med-tablet){
+		width:100%;
+
+	}
+
+}
+
+.audition-show-row .audition-content{
+
+	@include respond-max($med-tablet){
+		margin: 0 auto;
+		text-align: center;
+
+	}
+
+}
+
+.audition-show-row.-show-2 .audition-content-wrapper._flex-half{
+	@include respond-max($med-tablet){
+		order:2;
+	}
+}
+
+.audition-content p.-larger{
+	@include respond-max($med-tablet){
+		font-size: rem(15);
+	}
+}
+
+.audition-content{
+
+	@include respond-max($med-tablet){
+
+		&._plm{
+			padding-left: 30px;
+		}
+
+		&._prm{
+			padding-right:30px;
+		}
+
+		&._pvl{
+			padding-top: 100px;
+		}
+
+	}
+
+}
+
+//Buttons
+
+.download-breakdown i {
+	margin-right: 5px;
+}

@@ -1,0 +1,32 @@
+#colophon{
+	padding: 8% 0 1% 0;
+
+	// Fix Tiny Amounts of padding on small screen sizes
+	@include respond-max( $phone ){
+		padding: 70px 0 40px 0;
+	}
+
+	&:before{
+		@include linear-gradient(to top, rgba( $d-gray, .3 ) 0%,  rgba( $d-gray, .95 )  50% );
+	}
+
+	.site-copyright{
+		span{
+			letter-spacing: 1px;
+			line-height: 1.8;
+		}
+	}
+
+}
+
+
+.site-copyright > .copyright-inner{
+
+	position: relative;
+
+	 > .after{
+		font-weight: 700;
+		text-transform: uppercase;
+	}
+
+}

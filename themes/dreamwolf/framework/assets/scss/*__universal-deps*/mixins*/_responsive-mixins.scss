@@ -1,0 +1,51 @@
+
+/* =============================
+	RESPONSIVE MIXIN
+=============================== */
+
+// Responsive Breakpoints | VARS
+// ===================================
+
+	$tiny:	 			em(400);
+	$small:				em( 600 );
+	$phone: 			em(767);
+	$nav: 				em(820);
+	$hidemobile:		em( 821 );
+	$small-tablet: 		em( 850 );
+	$med-tablet: 		em( 950 );
+	$tablet: 			em(1024);
+	$ipad:	  			em(1200);
+	$laptop:  			em(1400);
+	$desktop: 			em(1920);
+
+
+/*------------------------------
+* Responsive Max-Width | Mixin
+* @author Christopher Hahn
+*------------------------------*/
+//Use the VARS for the desired breakpoint
+
+@mixin respond-max($breakpoint-max) {
+	@media only screen and (max-width: $breakpoint-max ) { @content; }
+}
+
+/*------------------------------
+* Responsive Max-Width | Mixin
+* @author Christopher Hahn
+*------------------------------*/
+//Use the VARS for the desired breakpoint
+
+@mixin respond-min($breakpoint-min) {
+	@media only screen and (min-width: $breakpoint-min ) { @content; }
+}
+
+
+//If you use the custom query, PLEASE Specify what it is for!!
+@mixin respond-custom( $type,$value,$type2:null,$value2:null) {
+	@if $type2 != null{
+		@media only screen and ($type: em($value)) and ($type2: em($value2)) { @content; }
+	} @else {
+		@media only screen and ($type: em($value)) { @content; }
+	}
+
+}

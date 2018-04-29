@@ -1,0 +1,26 @@
+.show-filter-trigger{
+	position:absolute;
+	z-index:99 !important;
+	text-align:center;
+	bottom:0px;
+	right:0px;
+	padding:5px 30px;
+	background: rgba( white, .35 ) ;
+	cursor:pointer;
+	display:block;
+	transition: .1s ease-in-out;
+
+	&:hover,
+	&:focus{
+		background: rgba( white, .45 ) ;
+	}
+
+}
+
+.show-filter-trigger > .text{
+	margin-bottom:0;
+}
+
+.show-filter-trigger > .icon{
+	font-size: 18px;
+}

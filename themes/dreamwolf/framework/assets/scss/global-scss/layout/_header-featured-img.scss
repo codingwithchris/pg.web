@@ -1,0 +1,40 @@
+// The Featured Images used in Page Headers
+
+.page-header.-inner > .featured-image{
+	height: auto;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+
+	@include respond-max( $desktop ){
+	   height: 120%;
+	   width: auto;
+	}
+
+	@include respond-max( $laptop ){
+	   height: 110%;
+	   width: auto;
+	}
+
+	@include respond-max( $ipad ){
+	    height: 120%;
+	    left: -10%;
+	}
+
+	@include respond-max( $tablet ){
+	    height: 110%;
+	    left: 0%;
+	}
+
+	@include respond-max( $phone ){
+	    height: 105%;
+	    left: 0%;
+	}
+
+	@include respond-max( $small ){
+	    height: 100%;
+	    left: -15%;
+	}
+
+}

@@ -1,0 +1,46 @@
+._before{
+	position: relative;
+
+	&:before{
+		content: '';
+		display: block;
+		height: 100%;
+		left:0;
+		position: absolute;
+		top: 0;
+		width: 100%;
+	}
+
+}
+
+._after{
+	position: relative;
+
+	&:after{
+		content: '';
+		display: block;
+		height: 100%;
+		left:0;
+		position: absolute;
+		top: 0;
+		width: 100%;
+	}
+
+}
+
+// Used on ghost elements that have an id that the nav needs to scroll to
+// ========================================================
+._offset{
+
+	&:focus{
+		outline: none !important;
+	}
+
+	&:before{
+	   display: block;
+	  content: " ";
+	  height: 127px;      /* Give height of your fixed element */
+        margin-top: -127px; /* Give negative margin of your fixed element */
+        visibility: hidden;
+	}
+}

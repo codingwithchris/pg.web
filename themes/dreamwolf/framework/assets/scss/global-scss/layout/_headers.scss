@@ -1,0 +1,153 @@
+// This File hold the stylings for All headers site-wide
+// Please refer to the table of contents below to see what styles are contained here
+// --------------------------------------------------------------------------------------------------------
+//
+// TABLE OF CONTENTS
+//
+// 01. Header Vars
+// 02. Global Header Settings and Styles
+// 03. Home Page Header
+// 04. Inner Page Header
+
+
+// ========================================
+// 01.	HEADER VARS
+// ========================================
+
+// base Vars
+$header-overlay-color: rgba( $d-gray, .8 );
+$header-offset--notice: 92px;
+$header-offset-nonotice: 88px;
+
+// Responsive Vars
+$home-header-mobile-min-height: 650px;
+
+
+
+// ========================================
+// 02.	GLOBAL HEADER SETTINGS & STYLES
+// ========================================
+.page-header{
+
+	.container:not('.-archive'){
+		position: relative;
+		z-index: $z-above-overlay;
+	}
+
+	.sub{
+		display: block;
+	}
+
+	// Title & Subtitle Colors
+	.title,
+	.sub{
+		position: relative;
+		z-index: $z-above-overlay;
+		color: white;
+	}
+
+	// Overlay
+	&:before{
+		background-color: $header-overlay-color;
+	}
+
+}
+
+
+// =========================================
+// 03.	HOME PAGE HEADER
+ // ========================================
+
+ // Base Header Styles
+.page-header.-home{
+
+	// 100% VH with fallbacks & Offset
+	@include full-screen( 1000px, 75px );
+
+		// Remove VH in responsive to prevent glitching when
+		// URL bar pops in and out
+		@include respond-max( $nav ){
+			min-height: $home-header-mobile-min-height;
+			@include display(flex);
+			@include align-items( center );
+		}
+
+	// Flexbox Centers the logo vertically and Horizontally
+	@include display(flex);
+	@include align-items( center );
+
+	// If no flexbox, we will eventually implement these fixes
+
+	/*
+		.header-inner-wrap{
+			  max-width: 90%;
+			  position: absolute;
+			  top: 50%;
+			  left: 50%;
+			  transform: translate(-50%, -50%);
+		}
+	*/
+
+}
+
+
+
+// =========================================
+ // 04.	HOME HEADER INNER CONTENT BASE
+ // =========================================
+.page-header.-home{
+
+	.sub{
+		max-width: 550px;
+		width: 95%;
+	}
+
+	.home-hero{
+		>span{
+			display: block;
+		}
+	}
+
+}
+
+
+// =========================================
+ // 04.	INNER PAGE BASE HEADER
+ // =========================================
+.page-header.-inner{
+	overflow: hidden;
+	transition:  all .1s ease-in-out;
+
+	&:before{
+		z-index: $z-overlay;
+	}
+
+	.sub{
+		margin-top: -10px;
+
+		@include respond-max( $tablet ){
+			margin-top:0px;
+		}
+
+	}
+
+}
+
+// ==========================================
+ // 04.	INNER PAGE AND ARCHIVE STANDARD HEADER
+ // ==========================================
+.page-header.-inner.-page,
+.page-header.-inner.-archive{
+	height: 45vh;
+	width: 100%;
+}
+
+
+// ==========================================
+ // 04.	SINGLE SHOW HEADER
+ // ==========================================
+ .page-header.-inner.-show{
+ 	height: 55vh;
+	width: 100%;
+
+}

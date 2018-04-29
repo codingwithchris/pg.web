@@ -1,0 +1,71 @@
+// Social Icon Bar
+// -------------------------------------------
+// A Bar that appears right above the call to action
+// that  contains Social Media Icons
+// ========================
+
+
+// =============
+// SETTINGS
+// =============
+$social-bar-padding: 23px 0 20px 0; // uneven padding to fix line height issues
+
+$social-bar-icon-height: 50px;
+$social-bar-icon-width: 50px;
+
+$social-bar-icon-color: white;
+$social-bar-icon-bg: $d-green;
+$social-bar-icon-bg_hover: darken( $d-green, 4% );
+
+$social-bar-icon-margin: 0 10px;
+
+$social-bar-icon-font-size: 22px;
+
+// =============
+// STYLE
+// =============
+
+.social-bar{
+	padding: $social-bar-padding;
+	margin:0;
+	text-align: center;
+}
+
+// ul
+.social-bar .social-footer-icons{
+	margin: 0;
+	padding:0;
+	line-height: 1;
+}
+
+.social-bar .social-footer-icons > .icon{
+
+	// li
+	background: $social-bar-icon-bg;
+	border-radius: 50%;
+	display: inline-block;
+	height: $social-bar-icon-height;
+	margin: $social-bar-icon-margin;
+	transition: .15s ease;
+	width:$social-bar-icon-width;
+
+	&:hover{
+		background: $social-bar-icon-bg_hover;
+	}
+
+
+	>a{
+		color: $social-bar-icon-color;
+		display: table-cell;
+	      vertical-align: middle;
+	      text-align: center;
+	      height: $social-bar-icon-height;
+	      width: $social-bar-icon-width;
+
+		>i{
+			font-size: $social-bar-icon-font-size;
+			line-height: 1;
+		}
+
+	}
+}

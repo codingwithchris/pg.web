@@ -1,0 +1,121 @@
+// Spacing Helpers
+// ===========================
+
+	$pad_large: 120px;
+	$pad_medium: 70px;
+	$pad_small: 40px;
+
+
+	// Top Padding
+	//======================
+
+	._ptn{
+		padding-top:0;
+	}
+
+	._pts{
+		padding-top: $pad_small;
+
+	}
+
+	._ptm{
+		padding-top: $pad_medium;
+	}
+
+	._ptl{
+		padding-top: $pad_large;
+	}
+
+
+
+	// Right Padding
+	//======================
+
+	._prn{
+		padding-right:0;
+	}
+
+	._prs{
+		padding-right: $pad_small;
+
+	}
+
+	._prm{
+		padding-right: $pad_medium;
+	}
+
+	._prl{
+		padding-right: $pad_large;
+	}
+
+	// Bottom Padding
+	// ======================
+
+	._pbn{
+		padding-bottom:0;
+	}
+
+	._pbs{
+		padding-bottom: $pad_small;
+	}
+
+	._pbm{
+		padding-bottom: $pad_medium;
+	}
+
+	._pbl{
+		padding-bottom: $pad_large;
+	}
+
+	// Left Padding
+	// ======================
+
+	._pln{
+		padding-left:0;
+	}
+
+	._pls{
+		padding-left: $pad_small;
+	}
+
+	._plm{
+		padding-left: $pad_medium;
+	}
+
+	._pll{
+		padding-left: $pad_large;
+	}
+
+
+	// Vertical padding ( Top and Bottom )
+	// =============================
+	._pvn{
+		padding-top:0;
+		padding-bottom:0;
+	}
+
+	._pvs{
+		padding-top: $pad_small;
+		padding-bottom: $pad_small;
+	}
+
+	._pvm{
+		padding-top: $pad_medium;
+		padding-bottom: $pad_medium;
+	}
+
+	._pvl{
+		padding-top: $pad_large;
+		padding-bottom: $pad_large;
+	}
+
+	// Margin Helpers
+	// ==============
+
+	$mar_large: 120px;
+	$mar_medium: 70px;
+	$mar_small: 40px;
+
+	._mbn{
+		margin-bottom:0 !important;
+	}

@@ -1,0 +1,21 @@
+// base Vars
+$trailer-bg-overlay-color: rgba( $d-gray, .80 );
+
+
+
+// ========================================
+// 02.	GLOBAL HEADER SETTINGS & STYLES
+// ========================================
+#show-trailer-row{
+
+	>.container{
+		position: relative;
+	}
+
+
+	// Overlay
+	&:before{
+		background-color: $trailer-bg-overlay-color;
+	}
+
+}

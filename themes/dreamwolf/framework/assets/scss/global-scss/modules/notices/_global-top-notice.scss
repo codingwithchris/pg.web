@@ -1,0 +1,73 @@
+// Add spacing to top of site on mobile to show the new message
+#top{
+	@include respond-max( em( 819 ) ){
+		margin-top:67px;
+	}
+}
+
+// General Notice Stylings that apply to ALL notices
+// ======================================
+.topbar-notice{
+	background: $l-green;
+	display: block;
+	padding-top: 7px;
+	padding-bottom:7px;
+	text-align: center;
+	transition: none;
+	width: 100%;
+}
+
+.topbar-notice > .container > p{
+	color: white;
+	margin: 0;
+	padding: 9px;
+
+	@include respond-max( em( 819 ) ){
+		padding: 6px;
+	}
+
+	@include respond-max( 622px  ){
+		padding: 3px;
+	}
+
+}
+
+.topbar-notice > .container > .attention-getter{
+background: $green;
+border-radius: 4px;
+color: $d-green;
+float: left;
+text-transform: uppercase;
+width: auto;
+
+@include respond-max( 1050px ){
+		background: transparent;
+		display: inline-block;
+		float: none;
+	}
+}
+
+.topbar-notice > .container > .attention-getter i{
+	margin-right: 7px;
+}
+
+.topbar-notice > .container > .message{
+	display: inline-block;
+}
+
+.topbar-notice > .container > .btn{
+	float: right;
+	width: auto;
+	padding: .5375em 1.875em;
+	margin-top:5px;
+
+	@include respond-max( 1050px ){
+		float: none;
+	}
+
+	@include respond-max( 920px ){
+		display: none;
+	}
+
+
+}

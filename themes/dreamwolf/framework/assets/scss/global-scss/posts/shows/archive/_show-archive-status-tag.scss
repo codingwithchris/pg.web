@@ -1,0 +1,31 @@
+//Show Status Tag Component
+.pg-post-item .post-header{
+
+	> .show-status {
+		padding: 10px 20px;
+		position: absolute;
+		right:0;
+		top:0;
+
+		@include respond-max( 700px ){
+				padding: 7px 15px;
+			}
+
+		// Current Show
+		&.-playing{
+			background: $green;
+		}
+
+		// Opening Night
+		&.-opening{
+			background: $l-green;
+		}
+
+		// in Rehearsal
+		&.-rehearsing{
+			background: $gray;
+		}
+
+	}
+
+}

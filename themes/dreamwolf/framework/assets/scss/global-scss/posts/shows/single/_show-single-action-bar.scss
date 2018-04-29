@@ -1,0 +1,53 @@
+.action-bar.-single.-show{
+
+}
+
+.action-bar.-single.-show .action-bar-items{
+	align-items: center;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+}
+
+.action-bar.-single.-show .action-bar-items > .action{
+	background:$green;
+	border-right: 2px solid $m-green;
+	flex:1;
+	text-align: center;
+	color:white;
+	font-size: 12px;
+	font-weight: 400;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	transition: background .1s linear;
+
+	@include respond-max( $small ){
+			font-size: 10px;
+		}
+
+	&:last-of-type{
+		border-right: none;
+	}
+
+
+	&:hover,
+	&:focus{
+		background: $l-green;
+	}
+
+
+	> i{
+		display: block;
+		line-height: 1;
+		font-size: 18px;
+		margin-bottom: 5px;
+
+		@include respond-max( $small ){
+			font-size: 16px;
+		}
+
+	}
+}

@@ -1,0 +1,52 @@
+// Global SVG Logo Styles
+// Make everything white except for Play
+// play will be different colors depending on whrre it shows up
+
+
+// PLayground SVG Logo Base
+#playground-logo{
+
+	width: 100%;
+
+	.lines,
+	.the,
+	.ground,
+	.theatre,
+	.play{
+		fill:white;
+	}
+
+}
+
+//Home Header Playground logo
+.page-header.-home #playground-logo{
+	display: block;
+	max-width: 525px;
+	margin: 0 auto;
+	position: relative;
+	z-index: 100;
+	width: 85%;
+
+	.play{
+		fill:$green;
+	}
+
+}
+
+// Playground Logo in Navigation Bar
+.playground-navbar #playground-logo{
+	position: relative;
+	transition: .15s linear;
+	float: left;
+	max-width: 148px;
+	padding: 17px 15px 5px 15px;
+}
+
+.playground-navbar #playground-logo:hover{
+	background: lighten( $d-gray, 5% );
+	opacity: .9;
+}
+
+.playground-navbar #playground-logo:focus{
+	background: darken( $d-gray, 5% );
+}

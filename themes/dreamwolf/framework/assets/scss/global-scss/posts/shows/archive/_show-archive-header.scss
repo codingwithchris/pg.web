@@ -1,0 +1,168 @@
+// Playground SHow Feed Post Header
+.pg-post-item .post-header{
+	margin-bottom: em( 20 );
+
+	// Post Header Link
+	> .title-link{
+		color: $gray;
+		display: inline-block;
+		position: relative;
+		width: auto;
+
+		@include respond-max( $phone ){
+
+		margin-bottom:8px;
+
+		}
+
+
+	}
+
+}
+
+
+// Show Feed Featured Image
+.pg-post-item{
+
+	.featured-wrapper,
+	.featured-wrapper:before,
+	.title{
+		transition: .25s ease-in-out;
+	}
+
+	.featured-wrapper{
+		display: block;
+		max-height: 400px;
+		overflow: hidden;
+	}
+
+	.featured-wrapper .featured{
+		max-width: 100%;
+	}
+
+}
+
+
+
+
+// Post Header Status Changes
+// ======================
+
+// =========
+// Future Shows
+// =========
+// =========
+// Now Playing Shows
+// =========
+
+//Title
+.pg-post-item.-future .post-header,
+.pg-post-item.-rehearsing .post-header{
+
+	>.title-link{
+		color:$green;
+	}
+
+	>.title-link:hover{
+		color:$gray;
+	}
+}
+
+
+//Title
+.pg-post-item.-playing .post-header{
+
+	>.title-link{
+		color:$green;
+	}
+
+	>.title-link:hover{
+		color:$el-green;
+	}
+}
+
+// =========
+// Now Playing Shows
+// =========
+
+//Title
+.pg-post-item.-playing .post-header{
+
+	>.title-link{
+		color:$green;
+	}
+
+	>.title-link:hover{
+		color:$el-green;
+	}
+}
+
+
+
+
+// Featured Image
+// ==========================
+
+	// =========
+	// Past Shows
+	// =========
+	.pg-post-item.-past{
+
+		// Featured Image Wrapper
+		.featured-wrapper{
+			filter: grayscale(100%);
+		}
+
+		//Before Overlay
+		.featured-wrapper:before{
+			background: $gray;
+			@include opacity( .85 );
+		}
+
+		// On HOver
+		.featured-wrapper:hover{
+			filter: grayscale(30%);
+
+			&:before{
+				@include opacity( .3 );
+			}
+
+		}
+
+	}
+
+	//Title
+	.pg-post-item.-past .post-header{
+		>a:hover{
+			color:$m-gray;
+		}
+	}
+
+
+	// =========
+	// Future Shows
+	// =========
+	.pg-post-item.-future{
+
+		// Featured Image Wrapper
+		.featured-wrapper{
+			filter: grayscale(20%);
+		}
+
+		//Before Overlay
+		.featured-wrapper:before{
+			background: $gray;
+			@include opacity( .5 );
+		}
+
+		// On HOver
+		.featured-wrapper:hover{
+			filter: grayscale(10%);
+
+			&:before{
+				@include opacity( .2 );
+			}
+
+		}
+
+	}

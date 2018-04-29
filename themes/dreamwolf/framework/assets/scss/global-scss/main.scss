@@ -1,0 +1,48 @@
+/*!
+Theme Name: DreamWolf
+Author: Christopher Hahn
+Description: A beautiful, powerful, hand-crafted theme built for The Playground Theatre.
+Version: 1.0.1
+License: GNU General Public License v2.0
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: __wolf__
+Note: This file contains @font-face declarations and a slightly modified version of the normalize.css reset as
+	    well as all core / global site styles to be loaded on every page
+*/
+
+// UNIVERSAL LIBRARY IMPORT
+@import '../*__universal-deps*/*loader';
+
+/*--------------------------------------------
+ * CONTINUE AS NORMAL
+ * -----------------------------------------*/
+
+ /*!Critical Styles First*/
+@import '*critical/*loader';
+
+/*!UTILS*/
+@import 'utils/*loader';
+
+/*!BASE*/
+@import 'base/*loader';
+
+/*LAYOUT*/
+@import 'layout/*loader';
+
+/*!COMPONENTS*/
+@import 'components/*loader';
+
+/*!MODULES*/
+@import 'modules/*loader';
+
+/*!PAGES*/
+@import 'pages/*loader';
+
+/*!POST TYPES*/
+@import 'posts/*loader';
+
+/*! SHAME */
+@import '_shame';
+
+/*Import Font Awesome*/
+ @import 'vendors/font-awesome/font-awesome';
