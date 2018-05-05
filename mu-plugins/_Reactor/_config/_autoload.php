@@ -11,6 +11,11 @@ return [
 		'_helpers/urls',
 		'_helpers/query-strings',
 		'_helpers/checks',
+		'_helpers/colors',
+		'_helpers/images',
+		'_helpers/svg',
+		'_helpers/posts',
+
 		
 		// Security
 		//'security/module',
@@ -23,6 +28,7 @@ return [
 		//'integrations/gforms/gforms',
 
 		// Factories
+		'factories/class.shortcode-factory',
 		'factories/class.module-factory'
 	]
 

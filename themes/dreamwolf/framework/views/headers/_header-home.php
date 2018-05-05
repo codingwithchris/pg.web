@@ -1,4 +1,7 @@
 <?php
+namespace Wolf;
+use Reactor\Helpers;
+
 // =============================================================================
 // FRAMEWORK/VIEWS/HEADERS/HEADER-HOME.PHP
 // ----------------------------------------------------------------------------
@@ -21,7 +24,7 @@
 	<div class="container -max -width">
 		<div class="header-inner-wrap -fill">
 
-			<?php echo file_get_contents( WOLF_ASSETS_URL . '/img/playground-logo.svg' ); ?>
+			<?php echo file_get_contents( WOLF_ASSETS_PATH . '/img/playground-logo.svg' ); ?>
 			<h1 class="home-hero _bring-to-front _c-txt">
 				<span class="_visually-hidden"><?php esc_html_e( 'The Playground Theatre' ); ?></span>
 				<span class="h2 alt sub _l-gray _c-block"><?php esc_html_e( 'Life Unfiltered.' ); ?></span>

@@ -41,6 +41,15 @@ define( 'WOLF_TEMPLATE_URL', get_template_directory_uri() );
  */
 define( 'WOLF_ASSETS_URL', get_template_directory_uri() . '/framework/assets' );
 
+
+/**
+ * Define the assets Path constant.
+ *
+ * Specifically useful for loading things like file_get_contents();
+ * @since 1.0.0
+ */
+define( 'WOLF_ASSETS_PATH', get_template_directory() . '/framework/assets' );
+
 /**
  * Define this if Gravity Forms is Active
  *

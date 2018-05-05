@@ -1,4 +1,6 @@
 <?php
+use Reactor\Helpers;
+
 // =============================================================================
 // FRAMEWORK/VIEWS/GLOBAL/_NAVBAR-MAIN.PHP
 // -----------------------------------------------------------------------------
@@ -10,7 +12,7 @@
 	<div class="playground-navbar-inner container -max -width">
 
 			<a class="nav-logo-link" href="<?php echo esc_url( home_url() ); ?>">
-				<?php echo file_get_contents( WOLF_ASSETS_URL . '/img/playground-logo.svg' ); ?>
+				<?php echo file_get_contents( WOLF_ASSETS_PATH . '/img/playground-logo.svg' ); ?>
 			</a>
 
 			<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'playground' ); ?></a>
@@ -19,7 +21,7 @@
 
 				<?php if ( has_nav_menu( 'primary' ) ) {
 
-					wolf_get_view( 'core', '_menu', 'primary' );
+					\wolf_get_view( 'core', '_menu', 'primary' );
 
 				} ?>
 

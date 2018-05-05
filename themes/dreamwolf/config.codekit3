@@ -9,13 +9,6 @@
 	],
 "creatorBuild": "26680",
 "files": {
-	"\/.gitignore": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/.gitignore",
-		"oF": 0
-		},
 	"\/footer.php": {
 		"cB": 0,
 		"ft": 8192,
