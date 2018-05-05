@@ -29,7 +29,7 @@ $home-header-mobile-min-height: 650px;
 // ========================================
 .page-header{
 
-	.container:not('.-archive'){
+	.container:not(.-archive){
 		position: relative;
 		z-index: $z-above-overlay;
 	}

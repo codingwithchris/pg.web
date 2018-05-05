@@ -4141,16 +4141,6 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/framework\/assets\/scss\/global-scss\/pages\/css\/*loader.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/framework\/assets\/scss\/global-scss\/pages\/css\/*loader-min.css",
-		"oF": 0,
-		"oS": 0
-		},
 	"\/framework\/assets\/scss\/global-scss\/pages\/home\/*loader.scss": {
 		"aP": 0,
 		"bl": 0,
