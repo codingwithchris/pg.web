@@ -60,11 +60,6 @@ if( get_field( 'show_archive_header_image', 'options') ){
 	<div class="container -max -width">
 			<div class="header-inner-wrap -fill">
 
-				<a class="js-show-filter show-filter-trigger">
-					<p class="text _white">more</p>
-					<i class="icon fa fa-filter _white"></i>
-				</a>
-
 				<h1 class="title-group">
 					<span class="h1 -grunge title _mbn"><?php echo $title; ?></span>
 					<span class="h5 sub mtn"><?php echo $sub; ?></span>
