@@ -4930,13 +4930,6 @@
 		"oAP": "\/framework\/functions\/shows\/show-core.php",
 		"oF": 0
 		},
-	"\/framework\/functions\/shows\/show-filter.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/framework\/functions\/shows\/show-filter.php",
-		"oF": 0
-		},
 	"\/framework\/functions\/shows\/show-loader.php": {
 		"cB": 0,
 		"ft": 8192,

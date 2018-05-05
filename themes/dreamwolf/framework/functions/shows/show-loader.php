@@ -1,7 +1,6 @@
 <?php
 require_once (  'show-conditions.php');
 require_once (  'show-core.php');
-require_once (  'show-filter.php');
 require_once (  'show-meta.php');
 require_once (  'show-schema-meta.php');
 require_once (  'show-modules.php');
