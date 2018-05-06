@@ -17,7 +17,6 @@ if ( ! defined( 'WPINC' ) ) {
 	die( 'You cannot access this file!' );
 }
 
-
 class Shows extends ModuleFactory{
 
 	/**

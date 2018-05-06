@@ -1,5 +1,5 @@
 <?php
-namespace Playground\Shows;
+namespace Playground\Artists;
 use PostTypes\PostType;
 
 /**
@@ -9,11 +9,11 @@ $post_type_settings = module()->config( 'post_type' );
 $taxonomy_settings = module()->config( 'taxonomy' );
 
 /**
- * Instantiate Our Shows Post Type
+ * Instantiate Our Artists Post Type
  *
  * @since  1.0.0
  */
-$shows = new PostType(
+$artists = new PostType(
 
 	$post_type_settings['names'],
 	$post_type_settings['options'],
@@ -21,23 +21,24 @@ $shows = new PostType(
 
 );
 
+
 // Register Post Type
-$shows->register();
+$artists->register();
+
 
 /**
  * Give Post Type Our Taxonomies
  */
-$shows->taxonomy( $taxonomy_settings['season']['names']['name'] );
-$shows->taxonomy( $taxonomy_settings['series']['names']['name'] );
+$artists->taxonomy( $taxonomy_settings['position']['names']['name'] );
+
 
 /**
  * Set Up Filters for our post type
  */
-$shows->filters( $post_type_settings['filters'] );
+$artists->filters( $post_type_settings['filters'] );
 
 
 /**
  * Set Admin Icon
  */
-
-$shows->icon( module()->get_url() . '/assets/img/admin-icon.png' );
+$artists->icon( module()->get_url() . '/assets/img/admin-icon.png' );

@@ -33,7 +33,7 @@ return array(
 	'modules'	=> array(
 
 		//'analytics',
-		//'artists',
+		'artists',
 		//'classes',
 		'shows'
 		//'sponsors',
