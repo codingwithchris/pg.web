@@ -2227,6 +2227,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/framework\/assets\/scss\/*__universal-deps*\/vars*\/_borders.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/framework\/assets\/scss\/*__universal-deps*\/css\/_borders.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/framework\/assets\/scss\/*__universal-deps*\/vars*\/_color.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -2262,6 +2275,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/framework\/assets\/scss\/*__universal-deps*\/css\/_paths.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/framework\/assets\/scss\/*__universal-deps*\/vars*\/_shadows.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/framework\/assets\/scss\/*__universal-deps*\/css\/_shadows.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -3374,6 +3400,45 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/framework\/assets\/scss\/global-scss\/components\/_c-artist-grid.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/framework\/assets\/scss\/global-scss\/css\/_c-artist-grid.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/framework\/assets\/scss\/global-scss\/components\/_c-card--stacked.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/framework\/assets\/scss\/global-scss\/css\/_c-card--stacked.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/framework\/assets\/scss\/global-scss\/components\/_c-title-group.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/framework\/assets\/scss\/global-scss\/css\/_c-title-group.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/framework\/assets\/scss\/global-scss\/components\/_callout-box.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -3413,19 +3478,6 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/framework\/assets\/scss\/global-scss\/components\/_show-filter-trigger.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/framework\/assets\/scss\/global-scss\/css\/_show-filter-trigger.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
 	"\/framework\/assets\/scss\/global-scss\/components\/_social-icon-bar.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -3448,19 +3500,6 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/framework\/assets\/scss\/global-scss\/css\/_tabs.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/framework\/assets\/scss\/global-scss\/components\/_tax-filter.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/framework\/assets\/scss\/global-scss\/css\/_tax-filter.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -4063,7 +4102,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/framework\/assets\/scss\/global-scss\/pages\/about\/_about-bios.scss": {
+	"\/framework\/assets\/scss\/global-scss\/pages\/about\/_about-intro-section.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -4071,7 +4110,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/framework\/assets\/scss\/global-scss\/pages\/css\/_about-bios.css",
+		"oAP": "\/framework\/assets\/scss\/global-scss\/pages\/css\/_about-intro-section.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -4583,7 +4622,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/framework\/assets\/scss\/global-scss\/utils\/_helpers-background.scss": {
+	"\/framework\/assets\/scss\/global-scss\/utils\/_helpers-backgrounds\/*loader.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -4591,7 +4630,85 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/framework\/assets\/scss\/global-scss\/css\/_helpers-background.css",
+		"oAP": "\/framework\/assets\/scss\/global-scss\/utils\/css\/*loader.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/framework\/assets\/scss\/global-scss\/utils\/_helpers-backgrounds\/_bg--color.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/framework\/assets\/scss\/global-scss\/utils\/css\/_bg--color.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/framework\/assets\/scss\/global-scss\/utils\/_helpers-backgrounds\/_bg--height.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/framework\/assets\/scss\/global-scss\/utils\/css\/_bg--height.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/framework\/assets\/scss\/global-scss\/utils\/_helpers-backgrounds\/_bg--image.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/framework\/assets\/scss\/global-scss\/utils\/css\/_bg--image.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/framework\/assets\/scss\/global-scss\/utils\/_helpers-backgrounds\/_bg--overlay.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/framework\/assets\/scss\/global-scss\/utils\/css\/_bg--overlay.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/framework\/assets\/scss\/global-scss\/utils\/_helpers-backgrounds\/_bg--position.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/framework\/assets\/scss\/global-scss\/utils\/css\/_bg--position.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/framework\/assets\/scss\/global-scss\/utils\/_helpers-backgrounds\/_bg--size.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/framework\/assets\/scss\/global-scss\/utils\/css\/_bg--size.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -4648,6 +4765,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/framework\/assets\/scss\/global-scss\/utils\/_helpers-shadow.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/framework\/assets\/scss\/global-scss\/css\/_helpers-shadow.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/framework\/assets\/scss\/global-scss\/utils\/_helpers-spacing.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -4670,6 +4800,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/framework\/assets\/scss\/global-scss\/css\/_helpers-transition.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/framework\/assets\/scss\/global-scss\/utils\/_helpers-z-index.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/framework\/assets\/scss\/global-scss\/css\/_helpers-z-index.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -5346,25 +5489,25 @@
 		"oAP": "\/framework\/views\/modules\/_social-footer.php",
 		"oF": 0
 		},
-	"\/framework\/views\/pages\/about\/_about-chris.php": {
+	"\/framework\/views\/pages\/about\/_about-intro--bios.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/framework\/views\/pages\/about\/_about-chris.php",
+		"oAP": "\/framework\/views\/pages\/about\/_about-intro--bios.php",
 		"oF": 0
 		},
-	"\/framework\/views\/pages\/about\/_about-intro.php": {
+	"\/framework\/views\/pages\/about\/_about-intro--vision.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/framework\/views\/pages\/about\/_about-intro.php",
+		"oAP": "\/framework\/views\/pages\/about\/_about-intro--vision.php",
 		"oF": 0
 		},
-	"\/framework\/views\/pages\/about\/_about-jenna.php": {
+	"\/framework\/views\/pages\/about\/_about-intro__section.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/framework\/views\/pages\/about\/_about-jenna.php",
+		"oAP": "\/framework\/views\/pages\/about\/_about-intro__section.php",
 		"oF": 0
 		},
 	"\/framework\/views\/pages\/about\/_about-resident-artists.php": {

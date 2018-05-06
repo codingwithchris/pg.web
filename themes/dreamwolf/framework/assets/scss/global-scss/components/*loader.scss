@@ -3,8 +3,14 @@
 @import '_progressive-media-loading';
 @import '_social-icon-bar';
 @import '_tabs';
-@import '_tax-filter';
-@import '_show-filter-trigger';
 @import '_iframes';
 @import '_buttons';
 @import '_callout-box';
+
+// Legacy Components
+
+
+// Updated Components
+@import '_c-artist-grid';
+@import '_c-card--stacked';
+@import '_c-title-group';

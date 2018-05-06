@@ -1,0 +1,38 @@
+.c-card--stacked{
+
+	border-radius: $default-radius;
+	box-shadow: $subtle-shadow;
+}
+
+.c-card--stacked__media{
+
+	border-top-left-radius: $default-radius;
+	border-top-right-radius: $default-radius;
+	display: block;
+	height: 100%;
+
+
+}
+
+.c-card--stacked__lower{
+
+	padding: 24px;
+
+}
+
+
+
+/**
+ * Card Themes
+ */
+
+ .c-card--stacked.--light{
+
+
+ 	.c-card--stacked__lower{
+
+ 		background-color: white;
+
+ 	}
+
+ }

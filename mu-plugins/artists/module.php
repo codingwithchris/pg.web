@@ -34,7 +34,28 @@ class Artists extends ModuleFactory{
 		
 		$this->register( $config, $module_dir, $module_url );
 
+		// At this point shortcodes are already registered. This method
+		// defines where to load our shortcodes
+		$this->shortcode_loader();
+
 	}
+
+	private function shortcode_loader(){
+
+		// Resident Artist Feed
+		add_action( 'resident_artists',
+
+			function(){
+				echo do_shortcode('[artist_grid group="resident-artists"]');
+			}
+
+		 );
+
+
+
+	}
+
+
 
 }
 

@@ -1,4 +1,9 @@
+// Must Load First as other vars depend on it;
 @import "_color";
+
+// Load our remaining Vars
+@import "_borders";
 @import "_grid";
 @import "_paths";
+@import "_shadows";
 @import "_z-index";

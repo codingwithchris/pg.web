@@ -1,0 +1,39 @@
+
+/**
+ * Background-overlays
+ */
+
+._bg-overlay-white{
+
+	&:before{
+		background-color: white;
+		@include opacity( .75 );
+	}
+
+}
+
+._bg-overlay-gray{
+
+	&:before{
+		background-color: $d-gray;
+		@include opacity( .6 );
+	}
+
+}
+
+._bg-overlay-m-gray{
+
+	&:before{
+		background-color: $d-gray;
+		@include opacity( .75 );
+	}
+}
+
+
+._bg-overlay-d-gray{
+
+	&:before{
+		background-color: $d-gray;
+		@include opacity( .9 );
+	}
+}

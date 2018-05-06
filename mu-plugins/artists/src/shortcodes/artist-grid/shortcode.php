@@ -86,7 +86,7 @@ function query_artists( $attributes ){
 
 		'post_type'              => array( 'artist' ),
 		'post_status'            => array( 'publish' ),
-		'order'                  => 'DESC',
+		'order'                  => 'ASC',
 		'orderby'                => 'name',
 		'posts_per_page'		 => -1,
 		'tax_query'				 => array( $tax_query )

@@ -25,9 +25,9 @@
 }
 
 .flex-card-inner{
-      box-shadow: 0 1px 1px rgba(0,0,0,0.3);
-      border-radius: 3px;
-      display: flex;
+    box-shadow: $subtle-shadow;
+    border-radius: $default-radius;
+    display: flex;
 	padding:0;
 	position: relative;
 	align-items: center;

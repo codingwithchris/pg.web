@@ -1,0 +1,53 @@
+/**
+ * Background Column heights
+ * 
+ * useful for giving min-heights in order
+ * to display images.
+ */
+
+._bgCol-400{
+    min-height: 400px;
+
+     @include respond-max( 850px ){
+	    min-height: 250px;
+    }
+
+}
+
+._bgCol-500{
+    min-height: 500px;
+
+     @include respond-max( 850px ){
+	    min-height: 250px;
+    }
+
+}
+
+._bgCol-600{
+    min-height: 600px;
+
+    @include respond-max( 850px ){
+	    min-height: 350px;
+    }
+
+}
+
+._bgCol-700{
+    min-height: 700px;
+
+
+     @include respond-max( 850px ){
+	    min-height: 425px;
+    }
+
+}
+
+._bgCol-800{
+
+    min-height: 800px;
+
+     @include respond-max( 850px ){
+	    min-height: 400px;
+    }
+
+}

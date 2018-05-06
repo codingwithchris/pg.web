@@ -104,6 +104,11 @@ function get_img_meta( $post, $source, $type, $id = '' , $term = null, $size = '
 				$value = get_post_meta( $img_id, '_wp_attachment_image_alt', true);
 				$value = esc_html( $value );
 			}
+
+		} else {
+
+			return null;
+
 		}
 	}
 

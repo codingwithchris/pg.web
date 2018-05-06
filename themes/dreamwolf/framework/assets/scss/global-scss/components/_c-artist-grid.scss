@@ -1,0 +1,16 @@
+.c-artist-grid{
+
+	display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+
+}
+
+
+.c-artist-grid__item{
+
+	flex:  0 0 350px;
+	margin: 24px;
+
+}
