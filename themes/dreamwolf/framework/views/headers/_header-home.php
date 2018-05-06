@@ -27,7 +27,7 @@ use Reactor\Helpers;
 			<?php echo file_get_contents( WOLF_ASSETS_PATH . '/img/playground-logo.svg' ); ?>
 			<h1 class="home-hero _bring-to-front _c-txt">
 				<span class="_visually-hidden"><?php esc_html_e( 'The Playground Theatre' ); ?></span>
-				<span class="h2 alt sub _l-gray _c-block"><?php esc_html_e( 'Life Unfiltered.' ); ?></span>
+				<span class="h2 alt sub _l-gray _c-block"><?php esc_html_e( 'Raw. Real. Relevant.' ); ?></span>
 			</h1>
 				
 			<?php echo do_shortcode( '[mc4wp_form id="651"]' ); ?>
