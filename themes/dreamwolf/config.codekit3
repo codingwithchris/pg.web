@@ -4037,6 +4037,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/framework\/assets\/scss\/global-scss\/pages\/about\/*loader.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/framework\/assets\/scss\/global-scss\/pages\/css\/*loader.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/framework\/assets\/scss\/global-scss\/pages\/audition\/*loader.scss": {
 		"aP": 0,
 		"bl": 0,
