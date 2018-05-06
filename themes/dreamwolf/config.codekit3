@@ -4050,6 +4050,45 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/framework\/assets\/scss\/global-scss\/pages\/about\/_about-articles.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/framework\/assets\/scss\/global-scss\/pages\/css\/_about-articles.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/framework\/assets\/scss\/global-scss\/pages\/about\/_about-bios.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/framework\/assets\/scss\/global-scss\/pages\/css\/_about-bios.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/framework\/assets\/scss\/global-scss\/pages\/about\/_about-resident-artists.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/framework\/assets\/scss\/global-scss\/pages\/css\/_about-resident-artists.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/framework\/assets\/scss\/global-scss\/pages\/audition\/*loader.scss": {
 		"aP": 0,
 		"bl": 0,
