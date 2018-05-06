@@ -29,7 +29,8 @@ $artists->register();
 /**
  * Give Post Type Our Taxonomies
  */
-$artists->taxonomy( $taxonomy_settings['position']['names']['name'] );
+$artists->taxonomy( $taxonomy_settings['positions']['names']['name'] );
+$artists->taxonomy( $taxonomy_settings['groups']['names']['name'] );
 
 
 /**

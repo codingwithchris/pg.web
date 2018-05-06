@@ -5367,6 +5367,13 @@
 		"oAP": "\/framework\/views\/pages\/about\/_about-jenna.php",
 		"oF": 0
 		},
+	"\/framework\/views\/pages\/about\/_about-resident-artists.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/framework\/views\/pages\/about\/_about-resident-artists.php",
+		"oF": 0
+		},
 	"\/framework\/views\/pages\/about\/_about-video.php": {
 		"cB": 0,
 		"ft": 8192,

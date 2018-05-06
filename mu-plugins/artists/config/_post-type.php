@@ -11,7 +11,7 @@ return [
 
 		'names' => [
 
-			'name' 		=> 'Artists',
+			'name' 		=> 'artist',
 		    'singular' 	=> 'Artist',
 		    'plural' 	=> 'Artists',
 		    'slug' 		=> 'artists'

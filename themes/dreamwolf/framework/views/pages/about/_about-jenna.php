@@ -1,4 +1,4 @@
-<div class="about-jenna _bg-white _ptl _pbm" itemscope itemtype="http://schema.org/Person">
+<div class="about-bio about-bio--jenna _bg-white _ptl _pbl" itemscope itemtype="http://schema.org/Person">
 	<div class="container _flex">
 
 			<?php
@@ -16,12 +16,12 @@
 			?>
 
 			<div class="_flex-half _pls _prm _r-txt">
-				<img class="" src="<?php echo $img_url; ?>">
+				<img class="about-bio__img" src="<?php echo $img_url; ?>">
 			</div>
 
 			<div class="_flex-half _l-txt _plm _prs">
 
-				<div class="about-bio-content _width-max-600">
+				<div class="about-bio__content _width-max-600">
 
 					<h4 class="_gray">Meet</h4>
 

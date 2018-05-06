@@ -1,9 +1,9 @@
-<div class="about-chris _bg-white _ptm _pbl" itemscope itemtype="http://schema.org/Person">
+<div class="about-bio about-bio--chris _bg-white _ptl _pbl" itemscope itemtype="http://schema.org/Person">
 	<div class="container _flex">
 
 			<div class="_flex-half _pls _prm">
 
-				<div class="about-bio-content _width-max-600 _r-block _r-txt">
+				<div class="about-bio__content _width-max-600 _r-block _r-txt">
 					<h4 class="_gray">Meet</h4>
 					<h2 class="_mbn _green"><strong itemprop="name">Chris Hahn</strong></h2>
 
@@ -30,7 +30,7 @@
 			?>
 
 			<div class="_flex-half _pls _prm">
-				<img class="" src="<?php echo $img_url; ?>">
+				<img class="about-bio__img" src="<?php echo $img_url; ?>">
 			</div>
 
 	</div>

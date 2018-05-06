@@ -9,17 +9,28 @@ return array_merge(
 
 		'settings' => [
 
-		'name'			=>	'artists',
-		'version'		=>	'1.0.0',
-		'description'	=>	'Handles all artist related functionality',
-	],
+			'name'			=>	'artists',
+			'version'		=>	'1.0.0',
+			'description'	=>	'Handles all artist related functionality',
+
+		],
 
 
-	'files'	=> [
-
-	],
+		'files'	=> [
 
 
+			// Custom Post Types
+			'src/custom/taxonomy.php',
+			'src/custom/post-type.php',
+
+			// Shortcodes
+			'src/shortcodes/artist-grid/shortcode.php'
+
+
+		],
+
+		// Our Views directory for Shortcodes
+		'views' => dirname( __FILE__, 2 ) . '/src/views/',
 
 	],
 
