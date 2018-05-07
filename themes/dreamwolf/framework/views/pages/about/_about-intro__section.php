@@ -1,4 +1,5 @@
-<div class="about-intro _before _bg-d-gray _bg-overlay-d-gray">
+<div class="about-intro _bg-d-gray">
+
 	<?php
 
 		wolf_get_page_view( 'about', '_about', 'intro--vision' );

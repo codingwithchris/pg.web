@@ -12,6 +12,27 @@
 
 }
 
+
+._bg-overlay-white--95{
+
+	&:before{
+		background-color: white;
+		@include opacity( .95 );
+	}
+
+}
+
+
+._bg-overlay-white--98{
+
+	&:before{
+		background-color: white;
+		@include opacity( .98 );
+	}
+
+}
+
+
 ._bg-overlay-gray{
 
 	&:before{
@@ -35,5 +56,14 @@
 	&:before{
 		background-color: $d-gray;
 		@include opacity( .9 );
+	}
+}
+
+
+._bg-overlay-d-gray--98{
+
+	&:before{
+		background-color: $d-gray;
+		@include opacity( .98 );
 	}
 }

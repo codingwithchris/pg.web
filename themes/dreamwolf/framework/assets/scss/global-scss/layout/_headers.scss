@@ -16,6 +16,7 @@
 
 // base Vars
 $header-overlay-color: rgba( $d-gray, .8 );
+$home-header-overlay-color: rgba( $d-gray, .9 );
 $header-offset--notice: 92px;
 $header-offset-nonotice: 88px;
 
@@ -76,17 +77,11 @@ $home-header-mobile-min-height: 650px;
 	@include display(flex);
 	@include align-items( center );
 
-	// If no flexbox, we will eventually implement these fixes
 
-	/*
-		.header-inner-wrap{
-			  max-width: 90%;
-			  position: absolute;
-			  top: 50%;
-			  left: 50%;
-			  transform: translate(-50%, -50%);
-		}
-	*/
+	// Overlay
+	&:before{
+		background-color: $home-header-overlay-color;
+	}
 
 }
 

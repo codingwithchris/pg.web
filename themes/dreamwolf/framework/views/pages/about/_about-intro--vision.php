@@ -16,11 +16,18 @@
 			</div>
 
 
+			<?php
+				// Set ACF Vars
 
+				$img = get_field( 'about_vision_img' );
+				$img_url = esc_url ( $img['url'] );
+				$img_alt = esc_html ( $img['alt'] );
+
+			?>
 
 			<div class="about-intro__col about-intro__col--img _flex _flex-center-v _pls _prs">
 
-				<img class="about-intro__img" src="https://placehold.it/1000x700" alt="">
+				<img class="about-intro__img" src="<?php echo $img_url; ?>" alt="<?php echo $img_alt; ?>">
 
 			</div>
 

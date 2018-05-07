@@ -1,4 +1,13 @@
-<div class="about-resident-artists _bg-white _bgCover _before _bg-overlay-white _pvl">
+<?php
+	// Set ACF Vars
+
+	$img = get_field( 'about_artists_bg' );
+	$img_url = esc_url ( $img['url'] );
+
+?>
+
+<div class="about-resident-artists _bg-white _bgCover _before _bg-overlay-white--95 _pvl" style="background-image: url( <?php echo esc_url( $img_url ); ?> );">
+
 	<div class="container -max -width _c-txt _bring-to-front">
 		
 		<div class="title-group _pbm">

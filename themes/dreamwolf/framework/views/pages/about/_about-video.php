@@ -1,4 +1,13 @@
-<div class="about-video _bg-l-gray _pvl">
+<?php
+	// Set ACF Vars
+
+	$img = get_field( 'about_video_bg' );
+	$img_url = esc_url ( $img['url'] );
+
+?>
+
+
+<div class="about-video _bg-l-gray _pvl _before _bg-overlay-white--98" style="background-image: url( <?php echo esc_url( $img_url ); ?> );">
 	<div class="container -max -width _c-txt _bring-to-front">
 		
 		<div class="twelve">

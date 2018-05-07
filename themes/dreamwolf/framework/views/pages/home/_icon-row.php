@@ -21,8 +21,8 @@
  ?>
 
 
-<div class="home-icons _pvl _bgCover" style="background-image: url( <?php echo esc_url( wolf_cdn_url ( content_url() . '/uploads/2016/04/home-icon-bg.jpg' ) ); ?> );">
-	<div class="container -max -width">
+<div class="home-icons _pvl _bgCover _before _bg-overlay-d-gray--98" style="background-image: url( <?php echo esc_url( wolf_cdn_url ( content_url() . '/uploads/2016/04/home-icon-bg.jpg' ) ); ?> );">
+	<div class="container -max -width _bring-to-front">
 
 		<div class="-fill _c-txt _white">
 			<h2 class="h1 -grunge _pbm">A Playground For...</h2>

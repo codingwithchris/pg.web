@@ -3,11 +3,19 @@
 	<div class="container _flex _flex-center-v _bring-to-front">
 
 
+			<?php
+				// Set ACF Vars
+
+				$img = get_field( 'about_bio_img' );
+				$img_url = esc_url ( $img['url'] );
+				$img_alt = esc_html ( $img['alt'] );
+
+			?>
 			
 
 			<div class="about-intro__col about-intro__col--img _flex _flex-center-v  _pls _prm _r-txt">
 
-				<img class="about-intro__img" src="https://placehold.it/1000x700" alt="">
+				<img class="about-intro__img" src="<?php echo $img_url; ?>" alt="<?php echo $img_alt; ?>">
 
 			</div>
 
