@@ -3413,6 +3413,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/framework\/assets\/scss\/global-scss\/components\/_c-card--inline.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/framework\/assets\/scss\/global-scss\/css\/_c-card--inline.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/framework\/assets\/scss\/global-scss\/components\/_c-card--stacked.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -3422,6 +3435,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/framework\/assets\/scss\/global-scss\/css\/_c-card--stacked.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/framework\/assets\/scss\/global-scss\/components\/_c-card-grid.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/framework\/assets\/scss\/global-scss\/css\/_c-card-grid.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -5487,6 +5513,13 @@
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/framework\/views\/modules\/_social-footer.php",
+		"oF": 0
+		},
+	"\/framework\/views\/pages\/about\/_about-articles.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/framework\/views\/pages\/about\/_about-articles.php",
 		"oF": 0
 		},
 	"\/framework\/views\/pages\/about\/_about-intro--bios.php": {

@@ -35,9 +35,9 @@ while ( $artists->have_posts() ) {
 
 				<div class="c-title-group">
 					
-					<p class="c-card--stacked__title _mbn _d-gray -larger">
-						<strong><?php esc_html_e( get_the_title() ); ?></strong>
-					</p>
+					<h6 class="c-card--stacked__title _mbn _d-gray -larger">
+						<?php esc_html_e( get_the_title() ); ?>
+					</h6>
 
 					<p class="c-card--stacked__sub _gray _mbn">
 						<?php esc_html_e( $positions ); ?>

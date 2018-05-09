@@ -1,0 +1,53 @@
+.c-card--inline{
+
+	align-items: center;
+	background-color: white;
+	border-radius: $default-radius;
+	box-shdow: $subtle-shadow;
+	display: flex;
+	margin-right: 12px;
+	margin-bottom: 12px;
+	padding: 15px;
+	text-align: left;
+	flex: 0 0 575px;
+	transition: all .15s ease-in;
+
+}
+
+
+.c-card--inline__media{
+
+	background-color: $el-green;
+	border-radius: $circle-radius;
+	height: 100px;
+	margin-right: 25px;
+	width: 100px;
+	flex: 0 0 100px;
+
+}
+
+
+.c-card--inline__arrow{
+
+	width: 30px;
+	height: 30px;
+	background: red;
+	flex: 0 0 30px;
+	margin-left: auto;
+	transition: all .15s ease-in;
+	transform: translateX( -5px );
+
+}
+
+
+.c-card--inline:hover{
+
+	@include opacity( .95 );
+
+	.c-card--inline__arrow{
+
+		transform: translateX( 0px );
+
+	}
+
+}

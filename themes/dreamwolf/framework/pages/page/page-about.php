@@ -16,3 +16,4 @@ wolf_get_page_view( 'about', '_about', 'video' );
 wolf_get_page_view( 'about', '_about', 'intro__section' );
 wolf_get_page_view( 'about', '_about', 'bios' );
 wolf_get_page_view( 'about', '_about', 'resident-artists' );
+wolf_get_page_view( 'about', '_about', 'articles' );

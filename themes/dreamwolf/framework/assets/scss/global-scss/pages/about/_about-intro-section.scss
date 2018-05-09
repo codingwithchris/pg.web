@@ -5,13 +5,6 @@
 
 }
 
-.about-intro__img{
-
-	flex: 1;
-	width: 100%;
-
-}
-
 
 .about-intro__col{
 
@@ -70,6 +63,12 @@
 
 
 .about-intro__bio{
+
+	.about-intro__img{
+
+		margin-left: auto;
+
+	}
 
 
 	@include respond-max( 1200px ){

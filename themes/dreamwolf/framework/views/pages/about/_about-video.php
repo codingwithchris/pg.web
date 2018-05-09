@@ -14,9 +14,9 @@
 
 			<div class="about-video-text _width-max-600 _c-block _pbm">
 
-				<h4 class="_d-gray">A Clever Thing Here.</h4>
+				<h4 class="_d-gray">Our Purpose</h4>
 
-				<p class="_gray -larger">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+				<p class="_d-gray -larger">The Playground’s vision is to be a playground for actors, artists, designers, and dreamers to use their unique voice to bring to the stage raw, honest, and relevant stories that reflect what it means to be human</p>
 
 			</div>
 

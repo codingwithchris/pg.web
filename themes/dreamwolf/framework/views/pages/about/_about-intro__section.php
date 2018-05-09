@@ -1,4 +1,4 @@
-<div class="about-intro _bg-d-gray">
+<div class="about-intro _bg-d-gray _pvl">
 
 	<?php
 
