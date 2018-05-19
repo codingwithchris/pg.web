@@ -15,6 +15,15 @@
 }
 
 
+.c-card--inline__media,
+.c-card--inline__arrow{
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+
 .c-card--inline__media{
 
 	background-color: $el-green;
@@ -24,6 +33,14 @@
 	width: 100px;
 	flex: 0 0 100px;
 
+	> i{
+
+		color: white;
+		font-size: 45px;
+		@include opacity(.7);
+
+	}
+
 }
 
 
@@ -31,11 +48,16 @@
 
 	width: 30px;
 	height: 30px;
-	background: red;
 	flex: 0 0 30px;
 	margin-left: auto;
 	transition: all .15s ease-in;
 	transform: translateX( -5px );
+
+	> i {
+
+		color: $m-gray;
+
+	}
 
 }
 

@@ -24,11 +24,16 @@
 				<div class="embed-container"> 
 
 					<?php
-						$embed_code = wp_oembed_get( 'https://www.youtube.com/watch?v=25qppuWM1sA', array('width'=>1280,'height'=>720) );
+						$embed_code = get_field('about_video_embed');
 						echo $embed_code;
 					?>
-				
+
 				</div>
+
+				<p class="video-creator _d-gray _pts _mbn">
+					Filmed and edited by our friends at <strong><a class="_green _under-green" href="http://knackforsubstance.com" target="_blank" title="Knack Creative Websote">Knack Creative</a></strong>.
+				</p>
+
 			</div>
 		</div>
 

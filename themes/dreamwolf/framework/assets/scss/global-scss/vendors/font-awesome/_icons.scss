@@ -23,6 +23,11 @@
 .#{$fa-css-prefix}-globe:before { content: $fa-var-globe; }
 .#{$fa-css-prefix}-thumbs-up:before { content: $fa-var-thumbs-up; }
 .#{$fa-css-prefix}-download:before { content: $fa-var-download; }
+.#{$fa-css-prefix}-file-text-o:before { content: $fa-var-file-text-o; }
+.#{$fa-css-prefix}-arrow-left:before { content: $fa-var-arrow-left; }
+.#{$fa-css-prefix}-arrow-right:before { content: $fa-var-arrow-right; }
+.#{$fa-css-prefix}-arrow-up:before { content: $fa-var-arrow-up; }
+.#{$fa-css-prefix}-arrow-down:before { content: $fa-var-arrow-down; }
 
 
 /*
@@ -121,10 +126,6 @@
 .#{$fa-css-prefix}-times-circle-o:before { content: $fa-var-times-circle-o; }
 .#{$fa-css-prefix}-check-circle-o:before { content: $fa-var-check-circle-o; }
 .#{$fa-css-prefix}-ban:before { content: $fa-var-ban; }
-.#{$fa-css-prefix}-arrow-left:before { content: $fa-var-arrow-left; }
-.#{$fa-css-prefix}-arrow-right:before { content: $fa-var-arrow-right; }
-.#{$fa-css-prefix}-arrow-up:before { content: $fa-var-arrow-up; }
-.#{$fa-css-prefix}-arrow-down:before { content: $fa-var-arrow-down; }
 .#{$fa-css-prefix}-mail-forward:before,
 .#{$fa-css-prefix}-share:before { content: $fa-var-share; }
 .#{$fa-css-prefix}-expand:before { content: $fa-var-expand; }
@@ -266,7 +267,6 @@
 .#{$fa-css-prefix}-bell-o:before { content: $fa-var-bell-o; }
 .#{$fa-css-prefix}-coffee:before { content: $fa-var-coffee; }
 .#{$fa-css-prefix}-cutlery:before { content: $fa-var-cutlery; }
-.#{$fa-css-prefix}-file-text-o:before { content: $fa-var-file-text-o; }
 .#{$fa-css-prefix}-building-o:before { content: $fa-var-building-o; }
 .#{$fa-css-prefix}-hospital-o:before { content: $fa-var-hospital-o; }
 .#{$fa-css-prefix}-ambulance:before { content: $fa-var-ambulance; }

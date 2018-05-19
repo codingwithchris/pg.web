@@ -1,10 +1,6 @@
 #colophon{
-	padding: 8% 0 1% 0;
 
-	// Fix Tiny Amounts of padding on small screen sizes
-	@include respond-max( $phone ){
-		padding: 70px 0 40px 0;
-	}
+	padding: 120px 0 72px 0;
 
 	&:before{
 		background-color: $d-gray;
@@ -12,10 +8,14 @@
 	}
 
 	.site-copyright{
+
+		text-align: center;
+
 		span{
+			font-size: 14px;
 			letter-spacing: 1px;
-			line-height: 1.8;
 		}
+		
 	}
 
 }
@@ -25,9 +25,50 @@
 
 	position: relative;
 
-	 > .after{
-		font-weight: 700;
-		text-transform: uppercase;
+
+}
+
+
+.footer-info{
+
+	width: 100%;
+
+	ul{
+
+		margin: 0;
+		padding: 0;
+
+	}
+
+	li{
+
+		display: block;
+	}
+
+}
+
+.footer-info__col{
+
+	margin-bottom: 64px;
+
+}
+
+.footer-info__item{
+
+	display: inline-block;
+
+}
+
+.footer-info__link{
+	font-size: rem( 15 );
+	font-weight: 400;
+	line-height: 1.6;
+	padding: 4px 0 4px 0;
+
+	&:hover{
+
+		color: white;
+
 	}
 
 }

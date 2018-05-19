@@ -11,6 +11,7 @@
 
 
 <div class="about-articles _bg-l-green _pvl" style="background-image: url( <?php echo esc_url( $img_url ); ?> );">
+	
 	<div class="container -max -width _c-txt _bring-to-front">
 			
 			<div class="title-group _pbm">
@@ -28,7 +29,7 @@
 					<a class="c-card--inline c-card--a" href="<?php echo esc_url( $article['link'] ); ?>" target="_blank">	
 
 						<div class="c-card--inline__media">
-
+							<i class="fa fa-file-text-o"></i>
 						</div>
 
 						<div class="c-card--inline__content">
@@ -45,6 +46,7 @@
 
 
 						<div class="c-card--inline__arrow">
+							<i class="fa fa-arrow-right"></i>
 						</div>
 
 					</a>
