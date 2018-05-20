@@ -360,7 +360,7 @@ function wolf_auto_copyright_year($year = 'auto'){
 		$copyright .= '<span class="before">'. esc_html__( $copyright_before, '__wolf__') .' &copy; </span>';
 		$copyright .= ' <span class="year">'.  wolf_auto_copyright_year() .' </span>';
 		$copyright .= ' <span class="after"> '. esc_html__ ( $copyright_after, '__wolf__') .' </span>';
-		$copyright .= ' <a class="designer _l-green _under-green" href="www.linkedin.com/in/christopher-a-hahn
+		$copyright .= ' <a class="designer _l-green _under-green" href="https://linkedin.com/in/christopher-a-hahn
 " target="_blank">'. esc_html__( $agency, '__wolf__') .'</a>';
 	$copyright .= '</span>';
 
