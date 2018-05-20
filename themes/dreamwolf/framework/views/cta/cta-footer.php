@@ -87,7 +87,7 @@
 
 ?>
 
-<div class="cta-row -footer _c-txt _pvl _bgCover _bg-overlay-d-gray _before" style="background-image:url( <?php  echo wolf_cdn_url( $cta_bg_image_url ); ?> )">
+<div class="cta-row -footer _c-txt _bgCover _bg-overlay-d-gray--80 _before" style="background-image:url( <?php  echo wolf_cdn_url( $cta_bg_image_url ); ?> )">
 
 	<div class="container -max -width _bring-to-front">
 

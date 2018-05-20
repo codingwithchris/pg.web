@@ -17,6 +17,12 @@ use Reactor\Helpers;
 // @todo - Link with ACF
 // @todo - make homeheader image for this file unique and dynamic based off of the current show
 // =============================================================================
+
+$tagline = get_field( 'home_hero_tagline' ) ?? 'Raw. Real. Relevant';
+
+
+
+
 ?>
 
 <div class="page-header -home _before _bgCover" style="background-image: url( <?php echo wolf_get_featured_image(); ?> );">
@@ -25,13 +31,22 @@ use Reactor\Helpers;
 		<div class="header-inner-wrap -fill">
 
 			<?php echo file_get_contents( WOLF_ASSETS_PATH . '/img/playground-logo.svg' ); ?>
+
 			<h1 class="home-hero _bring-to-front _c-txt">
 				<span class="_visually-hidden"><?php esc_html_e( 'The Playground Theatre' ); ?></span>
-				<span class="h2 alt sub _l-gray _c-block"><?php esc_html_e( 'Raw. Real. Relevant.' ); ?></span>
+				<span class="h2 alt sub _l-gray _c-block"><?= esc_html( $tagline ); ?></span>
 			</h1>
-				
-			<?php echo do_shortcode( '[mc4wp_form id="651"]' ); ?>
-			<?php // wolf_get_next_show( 'small' ); ?>
+			
+
+			<?php if( get_field( 'home_hero_action' ) == 'signup' ){
+
+				echo do_shortcode( '[mc4wp_form id="651"]' );
+
+			} elseif( get_field( 'home_hero_action' ) == 'show' ){
+
+				wolf_get_next_show( 'small' );
+
+			} ?>
 
 
 		</div>

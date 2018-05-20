@@ -4,3 +4,48 @@
 	box-shadow: 1px 1px 7px 0 rgba( $gray, .4 );
 	border-color: $l-green;
 }
+
+
+
+/**
+ * PAST SHOW STYLING
+ */
+
+// Show Item
+.post-type-archive-shows .pg-post-item.-past,
+.tax-season .pg-post-item.-past{
+
+	background: $d-gray;
+	
+}
+
+// Title
+.post-type-archive-shows .pg-post-item.-past .title-link,
+.tax-season .pg-post-item.-past .title-link{
+
+	color: $l-gray;
+
+}
+
+// Synopsis
+.post-type-archive-shows .pg-post-item.-past .synopsis,
+.tax-season .pg-post-item.-past .synopsis{
+
+	color: $l-gray;
+
+}
+
+
+// More
+.post-type-archive-shows .pg-post-item.-past .more,
+.tax-season .pg-post-item.-past .more{
+
+	color: white;
+
+	&:hover{
+
+		color: $m-gray;
+
+	}
+
+}

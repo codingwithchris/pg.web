@@ -13,6 +13,13 @@
 	width: 50%;
 }
 
+
+._flex-no-shrink{
+
+	flex-shrink: 0;
+
+}
+
 ._flex-full{
 	flex:1;
 }

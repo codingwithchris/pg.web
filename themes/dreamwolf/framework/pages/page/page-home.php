@@ -11,11 +11,17 @@
 // @since 1.0
 // =============================================================================
 
-// Do you think theatre is...
-wolf_get_page_view( 'home', '_icon', 'row' );
+// About Us
+wolf_get_page_view( 'home', '_about', 'us' );
 
-// We get it and the playground wants to change that
-wolf_get_page_view( 'home', '_we', 'get-it' );
+// Explore Shows
+wolf_get_page_view( 'home', '_explore', 'shows' );
 
-// We bring a fresh perspective
-wolf_get_page_view( 'home', '_fresh', 'perspective' );
+// Long Description
+wolf_get_page_view( 'home', '_long', 'description' );
+
+// Image Separator
+wolf_get_page_view( 'home', '_img', 'separator' );
+
+// Featured Quote
+wolf_get_page_view( 'home', '_featured', 'quote' );

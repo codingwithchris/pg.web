@@ -1,0 +1,122 @@
+/**
+ * Feature Section Styling
+ */
+
+.o-offset-feature{
+
+	padding: 24px;
+
+	@include respond-max( $tablet ){
+
+		flex-direction: column;
+		padding: 0;
+
+	}
+
+}
+
+.o-offset-feature.--last{
+
+	padding-top:0px;
+
+}
+
+
+
+
+/**
+ * Column Styling
+ */
+
+.o-offset-feature.--block-center .flex-col{
+
+	text-align:center;
+
+	.content{
+
+		margin-left: auto;
+		margin-right: auto;
+
+	}
+
+}
+
+.o-offset-feature .flex-col{
+
+	@include respond-max( $tablet ){
+
+		padding: 64px 24px;
+		margin: 0 auto !important;
+
+	}
+
+}
+
+
+.o-offset-feature .flex-col__img{
+
+	height: auto;
+	max-width: 800px;
+
+}
+
+.o-offset-feature .flex-col__left .flex-col__img{
+
+	margin-left: auto;
+	margin-right: 0;
+
+
+}
+
+
+.o-offset-feature.--content-left .flex-col__left{
+
+	max-width:800px;
+	margin-left: auto;
+	margin-right: 0;
+
+}
+
+
+.o-offset-feature.--content-right .flex-col__right{
+
+	
+	max-width:800px;
+	margin-left: 0;
+	margin-right: auto;
+
+
+}
+
+
+
+/**
+ * Sub elements
+ */
+
+.o-offset-feature .title{
+
+	margin-bottom: 8px;
+
+}
+
+.o-offset-feature .icon{
+
+	margin-bottom: 24px;
+	max-width: 150px;
+
+}
+
+.o-offset-feature .content{
+
+
+	margin-bottom: 32px;
+
+}
+
+
+.o-offset-feature .flex-col{
+
+	flex: 0 0 50%;
+
+}

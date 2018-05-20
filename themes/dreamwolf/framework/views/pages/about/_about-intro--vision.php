@@ -38,7 +38,7 @@
 
 			<div class="about-intro__col about-intro__col--img _flex _flex-center-v _plm _prs">
 
-				<img class="about-intro__img _width-max-700" src="<?php echo $img_url; ?>" alt="<?php echo $img_alt; ?>">
+				<img class="about-intro__img _width-max-700" src="<?php echo $img_url; ?>" alt="<?php echo $img_alt; ?>" width="700" height="855">
 
 			</div>
 

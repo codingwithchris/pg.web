@@ -3335,6 +3335,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/framework\/assets\/scss\/global-scss\/base\/_flex.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/framework\/assets\/scss\/global-scss\/css\/_flex.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/framework\/assets\/scss\/global-scss\/base\/_grid.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -3487,6 +3500,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/framework\/assets\/scss\/global-scss\/css\/_iframes.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/framework\/assets\/scss\/global-scss\/components\/_o-offset-feature.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/framework\/assets\/scss\/global-scss\/css\/_o-offset-feature.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -4154,6 +4180,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/framework\/assets\/scss\/global-scss\/pages\/about\/_about-video.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/framework\/assets\/scss\/global-scss\/pages\/css\/_about-video.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/framework\/assets\/scss\/global-scss\/pages\/audition\/*loader.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -4271,7 +4310,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/framework\/assets\/scss\/global-scss\/pages\/home\/_fresh-perspective.scss": {
+	"\/framework\/assets\/scss\/global-scss\/pages\/home\/_section-about.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -4279,12 +4318,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/framework\/assets\/scss\/global-scss\/pages\/css\/_fresh-perspective.css",
+		"oAP": "\/framework\/assets\/scss\/global-scss\/pages\/css\/_section-about.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/framework\/assets\/scss\/global-scss\/pages\/home\/_icon-row-1.scss": {
+	"\/framework\/assets\/scss\/global-scss\/pages\/home\/_section-description.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -4292,12 +4331,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/framework\/assets\/scss\/global-scss\/pages\/css\/_icon-row-1.css",
+		"oAP": "\/framework\/assets\/scss\/global-scss\/pages\/css\/_section-description.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/framework\/assets\/scss\/global-scss\/pages\/home\/_quote.scss": {
+	"\/framework\/assets\/scss\/global-scss\/pages\/home\/_section-explore.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -4305,12 +4344,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/framework\/assets\/scss\/global-scss\/pages\/css\/_quote.css",
+		"oAP": "\/framework\/assets\/scss\/global-scss\/pages\/css\/_section-explore.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/framework\/assets\/scss\/global-scss\/pages\/home\/_we-get-it-row.scss": {
+	"\/framework\/assets\/scss\/global-scss\/pages\/home\/_section-image-sep.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -4318,7 +4357,20 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/framework\/assets\/scss\/global-scss\/pages\/css\/_we-get-it-row.css",
+		"oAP": "\/framework\/assets\/scss\/global-scss\/pages\/css\/_section-image-sep.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/framework\/assets\/scss\/global-scss\/pages\/home\/_section-quote.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/framework\/assets\/scss\/global-scss\/pages\/css\/_section-quote.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -5689,39 +5741,39 @@
 		"oAP": "\/framework\/views\/pages\/donate\/_why-give.php",
 		"oF": 0
 		},
-	"\/framework\/views\/pages\/home\/_fresh-perspective.php": {
+	"\/framework\/views\/pages\/home\/_about-us.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/framework\/views\/pages\/home\/_fresh-perspective.php",
+		"oAP": "\/framework\/views\/pages\/home\/_about-us.php",
 		"oF": 0
 		},
-	"\/framework\/views\/pages\/home\/_icon-row.php": {
+	"\/framework\/views\/pages\/home\/_explore-shows.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/framework\/views\/pages\/home\/_icon-row.php",
+		"oAP": "\/framework\/views\/pages\/home\/_explore-shows.php",
 		"oF": 0
 		},
-	"\/framework\/views\/pages\/home\/_next-show.php": {
+	"\/framework\/views\/pages\/home\/_featured-quote.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/framework\/views\/pages\/home\/_next-show.php",
+		"oAP": "\/framework\/views\/pages\/home\/_featured-quote.php",
 		"oF": 0
 		},
-	"\/framework\/views\/pages\/home\/_we-get-it.php": {
+	"\/framework\/views\/pages\/home\/_img-separator.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/framework\/views\/pages\/home\/_we-get-it.php",
+		"oAP": "\/framework\/views\/pages\/home\/_img-separator.php",
 		"oF": 0
 		},
-	"\/framework\/views\/pages\/home\/_what-we-do.php": {
+	"\/framework\/views\/pages\/home\/_long-description.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/framework\/views\/pages\/home\/_what-we-do.php",
+		"oAP": "\/framework\/views\/pages\/home\/_long-description.php",
 		"oF": 0
 		},
 	"\/framework\/views\/pages\/instagram\/_instagram-award.php": {

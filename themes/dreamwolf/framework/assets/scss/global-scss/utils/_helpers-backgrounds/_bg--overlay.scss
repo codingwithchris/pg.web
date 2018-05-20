@@ -55,10 +55,17 @@
 
 	&:before{
 		background-color: $d-gray;
-		@include opacity( .9 );
+		@include opacity( .90 );
 	}
 }
 
+._bg-overlay-d-gray--80{
+
+	&:before{
+		background-color: $d-gray;
+		@include opacity( .80 );
+	}
+}
 
 ._bg-overlay-d-gray--98{
 

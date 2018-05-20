@@ -1,0 +1,9 @@
+.home-explore-shows .flex-col__left{
+
+	@include respond-max( $tablet ){
+
+		order:2;
+
+	}
+
+}

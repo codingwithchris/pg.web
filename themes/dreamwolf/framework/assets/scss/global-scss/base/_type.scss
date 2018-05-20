@@ -79,7 +79,8 @@ p,
 .menu-item > a,
 .btn,
 .footer-info__link,
-.copyright-inner{
+.copyright-inner,
+blockquote{
 	 margin-top: 0;
 	 -webkit-font-smoothing: antialiased;
 	 -moz-osx-font-smoothing: grayscale;
@@ -285,6 +286,18 @@ span{
 // <blockquote>
 // =========================
 blockquote{
+
+	font-size: rem( 26 );
+	font-style: italic;
+	font-weight: 400;
+	letter-spacing: rem( 3 );
+	line-height: 1.5;
+	margin-bottom: rem( 12 );
+
+	@include respond-max( $phone ){
+		 font-size: rem( 22 );
+	 }
+
 
 }
 
