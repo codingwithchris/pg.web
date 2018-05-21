@@ -38,8 +38,8 @@ if( is_tax() && ( wolf_get_current_season_id() == $current_term_id ) ){
 // If we are not filtering by season, we are displaying all of the Shows!
 } else {
 
-	$title = 'Explore';
-	$sub= 'Our Shows';
+	$title = 'The Shows';
+	$sub= '';
 
 }
 

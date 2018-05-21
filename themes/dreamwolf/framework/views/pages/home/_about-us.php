@@ -27,7 +27,7 @@ $icon_alt = esc_html ( $icon['alt'] );
 		
 		<img class="icon" src="<?= $icon_url ?>" alt="<?= $icon_alt ?>" width="150 "height="150">
 		<h4 class="title">What is The Playground?</h4>
-		<p class="content _width-max-400">Gallia est omnis divisa in partes tres, quarum. Nec dubitamus multa iter quae et nos invenerat.</p>
+		<p class="content _width-max-400">Discover who we are, why we exist, and why our brand of theatre will get under your skin.</p>
 		<a class="btn -green -bold" href="<?= esc_html( home_url( '/about/' ) ); ?>">Get to Know Us</a>
 
 	</div>

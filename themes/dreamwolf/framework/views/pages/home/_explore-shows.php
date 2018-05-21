@@ -32,9 +32,9 @@ $icon_alt = esc_html ( $icon['alt'] );
 		<div class="flex-col flex-col__right">
 
 			<img class="icon" src="<?= $icon_url ?>" alt="<?= $icon_alt ?>" width="150 "height="150" >
-			<h4 class="title">Exlpore The Shows</h4>
-			<p class="content _width-max-400">Gallia est omnis divisa in partes tres, quarum. Nec dubitamus multa iter quae et nos invenerat.</p>
-			<a class="btn -green -bold" href="<?= esc_html( home_url( '/shows/' ) ); ?>">Start Exploring</a>
+			<h4 class="title">Explore Our Shows</h4>
+			<p class="content _width-max-300">Find out more about the stories we tell.</p>
+			<a class="btn -green -bold" href="<?= esc_html( home_url( '/shows/' ) ); ?>">Take a Look</a>
 
 		</div>
 		

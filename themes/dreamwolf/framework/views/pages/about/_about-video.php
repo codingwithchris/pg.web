@@ -16,7 +16,7 @@
 
 				<h4 class="_d-gray">Our Purpose</h4>
 
-				<p class="_d-gray -larger">The Playground’s vision is to be a playground for actors, artists, designers, and dreamers to use their unique voice to bring to the stage raw, honest, and relevant stories that reflect what it means to be human</p>
+				<p class="_d-gray -larger">The Playground’s vision is to be a playground for actors, artists, designers, and dreamers to use their unique voice to bring to the stage raw, honest, and relevant stories that reflect what it means to be human.</p>
 
 			</div>
 
