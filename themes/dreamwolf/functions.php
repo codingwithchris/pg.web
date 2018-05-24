@@ -142,6 +142,7 @@ require_once( WOLF_TEMPLATE_PATH . $admin_path . '/admin-columns.php' );
  * @since 1.2.0
  * @package Schema
  */
+require_once( WOLF_TEMPLATE_PATH . $schema_path . '/schema-about.php' );
 require_once( WOLF_TEMPLATE_PATH . $schema_path . '/schema-shows.php' );
 require_once( WOLF_TEMPLATE_PATH . $schema_path . '/schema-output.php' );
 

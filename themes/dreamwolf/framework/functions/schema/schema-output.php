@@ -18,6 +18,11 @@ if( ! function_exists( 'wolf_load_show_schema' ) ){
 
 		}
 
+		if( is_page( 'about' ) ){
+
+			wolf_build_about_schema();
+		}
+
 	}
 
 }
