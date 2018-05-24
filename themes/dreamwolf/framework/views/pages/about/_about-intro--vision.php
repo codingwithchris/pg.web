@@ -16,9 +16,9 @@
 
 					</div>
 
-					<p class="_l-gray -larger">The Playground represents coming of age and self discovery. It's the transition we all make from the playground of our childhood to the playground of our adulthood. Humans, are constantly changing, evolving and learning as they grow older, having new experiences and going on new adventures. The Playground is the place where you discover yourself. It’s where you make friends, develop crushes, fall down, get scrapes, bruises, and broken bones.</p>
+					<p class="_l-gray -larger">The Playground represents coming of age and self discovery. It's the transition we all make from the playground of our childhood to the playground of our adulthood. Humans are constantly changing, evolving, and learning as they grow older, having new experiences and going on new adventures. The Playground is the place where you discover yourself. It’s where you make friends, develop crushes, fall down, get scrapes, bruises, and broken bones.</p>
 
-					<p class="_l-gray -larger">We tell modern stories that offer a very realistic glimpse into people’s lives as ugly, beautiful, painful, hopeful, dark or inspiring as they can be. We depict with as much honesty and authenticity as possible, what it means to be human and to live a life.</p>
+					<p class="_l-gray -larger">We tell modern stories that offer a very realistic glimpse into people’s lives as ugly, beautiful, painful, hopeful, dark, or inspiring as they can be. We depict, with as much honesty and authenticity as possible, what it means to be human and to live a life.</p>
 
 				</div>
 
