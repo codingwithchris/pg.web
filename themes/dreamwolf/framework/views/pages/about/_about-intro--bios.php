@@ -1,4 +1,4 @@
-<div class="about-intro about-intro__bio _ptm" itemscope itemtype="http://schema.org/Person">
+<div class="about-intro about-intro__bio _ptm">
 
 	<div class="container _flex _flex-center-v _bring-to-front">
 
@@ -29,7 +29,7 @@
 
 						<h4 class="_l-gray _mbn">Who Are</h4>
 
-						<h2 class="_green" ><strong itemprop="name">Jenna & Chris?</strong></h2>
+						<h2 class="_green" ><strong>Jenna & Chris?</strong></h2>
 
 					</div>
 					
