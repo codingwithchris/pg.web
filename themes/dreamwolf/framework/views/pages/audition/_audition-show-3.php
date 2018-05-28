@@ -16,7 +16,7 @@
 
 			<div class="audition-content _width-max-600 _plm _prm _pvl">
 
-				<h2 class="h1 -grunge _d-gray _mbn">Bachelorette</h2>
+				<h2 class="h1 -grunge _d-gray _mbn">The </h2>
 				<h5 class="_gray _mtn" style="margin-top: -10px;">by Leslye Headland</h5>
 				<h4 class="_gray">March 2018</h4>
 				

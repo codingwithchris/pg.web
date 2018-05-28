@@ -28,7 +28,7 @@ if( get_field( 'audition_display', 'options' ) ){
 	wolf_get_page_view( 'audition', '_audition', 'intro' );
 	wolf_get_page_view( 'audition', '_audition', 'show-1' );
 	wolf_get_page_view( 'audition', '_audition', 'show-2' );
-	wolf_get_page_view( 'audition', '_audition', 'show-3' );
+	// wolf_get_page_view( 'audition', '_audition', 'show-3' );
 	wolf_get_page_view( 'audition', '_audition', 'details' );
 	wolf_get_page_view( 'audition', '_audition', 'form' );
 

@@ -4,9 +4,10 @@
 
 		<div class="-fill">
 
-			<h2 class="_gray">Welcome to our 2017•2018 <br/><span class="_l-green">Season Audition Request Page</span></h2>
+			<h2 class="_gray">Welcome to our<br/><span class="_l-green">Audition Request Page</span></h2>
 			<p class="_gray -larger _width-max-600">Take some time and look around because there is a lot of important info, including role breakdowns, audition dates, times, locations and more!</p>
-			<p class="_gray _width-max-600">When you're ready, simply fill out the request form towards the <a class="_d-gray _under-green" href="#audition-form">bottom of this page.</a></p>
+
+			<p class="_gray _width-max-600">When you're ready, simply fill out the request form towards the bottom of this page.</p>
 
 		</div>
 

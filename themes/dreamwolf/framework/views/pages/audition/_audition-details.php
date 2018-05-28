@@ -4,7 +4,14 @@
 
 		<div class="-fill _pbm">
 			<h2 class="_gray _mbn">Audition Details</h2>
-			<h5 class="_gray">Please read the information below :)</h5>
+			<h5 class="_gray">Please carefully read the information below :)</h5>
+
+			<div class="audition-prerequisite _width-max-500">
+
+				<p class="_gray _mbn"><strong>** Please Note ** </strong> <span class="_green">In order to be considered for an audition, you must have prior acting experience.</span></p>
+
+			</div>
+
 		</div>
 
 	</div>
@@ -13,13 +20,15 @@
 
 		<div class="four audition-details-column _omega-n _c-txt">
 			<p class="_gray -larger"><i class="fa fa-calendar"></i><strong>Audition Dates</strong></p>
-			<p class="_gray _mbn">Sat • May 20th, 2017</p>
-			<p class="_gray">Sun • May 21st, 2017</p>
+			<p class="_gray _mbn"><strong>The Feast</strong> • Sunday, Aug. 12th, 2018</p>
+			<p class="_gray _mbn"><strong>Assistance</strong> •  Sunday, Aug. 19th, 2018</p>
+			<p class="_gray"><strong>The Library</strong> •  TBA - Invitation Only</p>
 		</div>
  
 		<div class="four audition-details-column _c-txt">
-			<p class="_gray -larger"><i class="fa fa-clock-o"></i><strong>Available Times</strong></p>
-			<p class="_gray">11am - 2pm</p>
+			<p class="_gray -larger"><i class="fa fa-clock-o"></i><strong>Potential Time Committment</strong></p>
+			<p class="_gray _mbn"><strong>Round 1</strong> • 12pm - 1pm</p>
+			<p class="_gray _mbn"><strong>Callbacks</strong> • 1pm - 4pm</p>
 		</div>
 
 		<div class="four audition-details-column _c-txt">
@@ -31,14 +40,18 @@
 		</div>
 
 		<div id="audition-requirements" class="container -max -width _bg-d-gray">
-			<p class="_l-gray"><strong>AGE RANGES:</strong> <span class="_l-green">See casting breakdown for each show</span></p>
-			<p class="_l-gray"><strong>PLEASE PREPARE:</strong> <span class="_l-green">A 1-2 minute contemporary monologue</span></p>
-			<p class="_l-gray"><strong>NOTE:</strong> <span class="_l-green">You may be asked to cold read</span></p>
-			<p class="_l-gray"><strong>ALL ROLES PAID</strong></p>
+
+			<p class="_l-gray audition-requirement__item"><strong>Role Breakdowns:</strong> <span class="_l-green">See casting call for each show (above)</span></p>
+
+			<p class="_l-gray audition-requirement__item _width-max-700"><strong>Round 1:</strong> <span class="_l-green"> If you receive an acceptance email, your audition sides will be included.</span></p>
+
+			<p class="_l-gray audition-requirement__item _width-max-700"><strong>Callbacks:</strong><span class="_l-green"> Callbacks will immediately follow round 1 auditions. If you are invited to callbacks, you will receive sides pertaining to the role(s) you are called back for.</span></p>
+
+			<p class="_l-gray audition-requirement__item"><strong>**ALL ROLES PAID**</strong></p>
 		</div>
 
 		<div id="audition-extras" class="container -max -width _bg-l-gray _pts _c-txt">
-			<p class="_gray _width-max-500 _c-block"><strong>** Need to Submit a Video Audition? ** </strong> <span class="_green">Please fill out the audition request form and select <strong>Video Audition</strong> under preferred date. You will receive additional instructions via email.</span></p>
+			<p class="_gray _width-max-500 _c-block"><strong>** Note About Video Auditions ** </strong> <span class="_green">We will not be accepting video submissions this season. In order to be considered for a role, you must attend the scheduled auditions.</span></p>
 		</div>
 
 	</div>

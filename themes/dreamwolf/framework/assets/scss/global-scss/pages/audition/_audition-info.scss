@@ -30,8 +30,8 @@
 
 .audition-details.-top{
 
-	border-top-right-radius: 3px;
-	border-top-left-radius: 3px;
+	border-top-right-radius: $default-radius;
+	border-top-left-radius: $default-radius;
 	box-shadow: 0 1px 1px rgba(0,0,0,0.3);
 }
 
@@ -58,6 +58,9 @@
 
 #audition-requirements{
 
+	border-bottom-left-radius: $default-radius;
+	border-bottom-right-radius: $default-radius;
+
 	@include respond-max($phone){
 		text-align: center;
 
@@ -66,4 +69,21 @@
 		}
 
 	}
+}
+
+.audition-requirement__item strong,{
+
+	display: block !important;
+	margin-bottom: 0px;
+
+}
+
+.audition-prerequisite{
+
+	background: white;
+	border-bottom: 4px solid $d-gray;
+	border-radius: $default-radius;
+	margin-top: 48px;
+	padding: 24px;
+
 }
