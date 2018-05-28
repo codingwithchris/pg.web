@@ -14,19 +14,3 @@
 	</div>
 
 </div>
-
-<div id="audition-video-row" class="_bg-d-gray _pvl">
-	<div class="container -max -width ">
-
-		<h2 class="h1 -grunge _white _pbs">Curious about our season?</h2>
-
-		<div class="embed-container"> 
-
-			<?php
-				$embed_code = wp_oembed_get( 'https://www.youtube.com/watch?v=25qppuWM1sA', array('width'=>1280,'height'=>720));
-				echo $embed_code;
-			?>
-			
-		</div>
-	</div>
-</div>
