@@ -1858,6 +1858,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/framework\/assets\/scss\/global-scss\/components\/_c-card--callout.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/framework\/assets\/scss\/global-scss\/css\/_c-card--callout.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/framework\/assets\/scss\/global-scss\/components\/_c-card--inline.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -3041,6 +3054,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/framework\/assets\/scss\/global-scss\/posts\/shows\/single\/_show-single-callout.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/framework\/assets\/scss\/global-scss\/posts\/shows\/css\/_show-single-callout.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/framework\/assets\/scss\/global-scss\/posts\/shows\/single\/_show-single-photos.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -3089,6 +3115,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/framework\/assets\/scss\/global-scss\/posts\/shows\/css\/_show-single-spotify.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/framework\/assets\/scss\/global-scss\/posts\/shows\/single\/_show-single-synopsis.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/framework\/assets\/scss\/global-scss\/posts\/shows\/css\/_show-single-synopsis.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -4325,6 +4364,13 @@
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/framework\/views\/posts\/shows\/_single-back-to-feed.php",
+		"oF": 0
+		},
+	"\/framework\/views\/posts\/shows\/_single-callout.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/framework\/views\/posts\/shows\/_single-callout.php",
 		"oF": 0
 		},
 	"\/framework\/views\/posts\/shows\/_single-date-info.php": {

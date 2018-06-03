@@ -74,3 +74,23 @@
 		@include opacity( .98 );
 	}
 }
+
+
+
+._bg-overlay-l-green{
+
+	&:before{
+		background-color: $l-green;
+		@include opacity( .75 );
+	}
+
+}
+
+._bg-overlay-l-green--98{
+
+	&:before{
+		background-color: $l-green;
+		@include opacity( .98 );
+	}
+
+}

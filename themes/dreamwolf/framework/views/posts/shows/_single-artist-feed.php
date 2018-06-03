@@ -6,7 +6,7 @@
 // ===============================================
 ?>
 
-<div id="show-artists-row" class="row _pvm _bg-l-gray">
+<div id="show-artists-row" class="row _pvl _bg-l-gray">
 
 	<?php if( wolf_show_actors_exist() ){ ?>
 

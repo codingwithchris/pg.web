@@ -24,6 +24,10 @@ $status = esc_attr( wolf_get_show_status() );
 
 	<?php wolf_get_post_view( 'shows', '_single', 'synopsis' ); ?>
 
+	<?php if( get_field('show_callout_title') && get_field('show_callout_info') ): ?>
+	<?php wolf_get_post_view( 'shows', '_single', 'callout' ); ?>
+	<?php endif; ?>
+
 	<?php // only load if actors or crew members have been added ?>
 	<?php if( wolf_show_actors_exist() || wolf_show_artists_exist() ): ?>
 		<?php wolf_get_post_view( 'shows', '_single', 'artist-feed' ); ?>
