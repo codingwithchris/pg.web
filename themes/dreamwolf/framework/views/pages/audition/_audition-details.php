@@ -22,7 +22,7 @@
 			<p class="_gray -larger"><i class="fa fa-calendar"></i><strong>Audition Dates</strong></p>
 			<p class="_gray _mbn"><strong>The Feast</strong> • Sunday, Aug. 12th, 2018</p>
 			<p class="_gray _mbn"><strong>Assistance</strong> •  Sunday, Aug. 19th, 2018</p>
-			<p class="_gray"><strong>The Library</strong> •  TBA - Invitation Only</p>
+			<p class="_gray"><strong>The Library</strong> •  TBA</p>
 		</div>
  
 		<div class="four audition-details-column _c-txt">
