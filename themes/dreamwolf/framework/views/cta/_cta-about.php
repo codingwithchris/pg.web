@@ -1,0 +1,1 @@
+<a class="btn -green -bold" href="<?php echo esc_url( site_url( '/about/' ) ); ?>">Get to Know Us</a>

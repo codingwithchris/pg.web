@@ -17,6 +17,10 @@
 
  	switch( $cta_option ){
 
+ 		case "about":
+ 			wolf_get_view( 'cta', '_cta', 'about' );
+ 			break;
+
  		case "donate":
  			wolf_get_view( 'cta', '_cta', 'donate' );
  			break;
