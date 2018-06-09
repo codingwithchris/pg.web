@@ -3883,6 +3883,13 @@
 		"oAP": "\/framework\/views\/core\/_site-top.php",
 		"oF": 0
 		},
+	"\/framework\/views\/cta\/_cta-about.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/framework\/views\/cta\/_cta-about.php",
+		"oF": 0
+		},
 	"\/framework\/views\/cta\/_cta-class-info.php": {
 		"cB": 0,
 		"ft": 8192,
