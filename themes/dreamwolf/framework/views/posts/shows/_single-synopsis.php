@@ -17,8 +17,8 @@ if ( get_field( 'show_syn' ) ){
 <div id="show-synopsis-row" class="row _pvm _bg-white">
 	<div class="container -max -width">
 
-	<h2 class="_green">The Synopsis</h2>
+	<h2 class="_green">The Story</h2>
 	<p class="synopsis _gray"><?php _e( $syn ); ?></p>
-
+	
 	</div>
 </div>
