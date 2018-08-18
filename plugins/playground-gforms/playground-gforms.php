@@ -49,15 +49,8 @@ if ( ! class_exists( 'GF_Common' ) ){
 
 		function __construct() {
 
-			add_action( 'gform_enqueue_scripts', array( $this, 'style' ), 10, 2);
 			$this->custom_functions();
 
-		}
-
-		public function style(){
-
-				wp_register_style( 'playground-gforms', WOLF_GFORMS_ASSET_URL . '/css/dist/playground-gforms.min.css', null, '1.1', 'all'  );
-				wp_enqueue_style( 'playground-gforms' );
 		}
 
 		public function custom_functions(){
