@@ -2521,6 +2521,185 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/framework\/assets\/scss\/global-scss\/modules\/forms\/css\/*loader.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/framework\/assets\/scss\/global-scss\/modules\/forms\/css\/*loader-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/framework\/assets\/scss\/global-scss\/modules\/forms\/gforms\/*loader.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/framework\/assets\/scss\/global-scss\/modules\/forms\/css\/*loader.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/framework\/assets\/scss\/global-scss\/modules\/forms\/gforms\/_checkboxes.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/framework\/assets\/scss\/global-scss\/modules\/forms\/css\/_checkboxes.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/framework\/assets\/scss\/global-scss\/modules\/forms\/gforms\/_contact.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/framework\/assets\/scss\/global-scss\/modules\/forms\/css\/_contact.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/framework\/assets\/scss\/global-scss\/modules\/forms\/gforms\/_datepicker.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/framework\/assets\/scss\/global-scss\/modules\/forms\/css\/_datepicker.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/framework\/assets\/scss\/global-scss\/modules\/forms\/gforms\/_description.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/framework\/assets\/scss\/global-scss\/modules\/forms\/css\/_description.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/framework\/assets\/scss\/global-scss\/modules\/forms\/gforms\/_dropdown.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/framework\/assets\/scss\/global-scss\/modules\/forms\/css\/_dropdown.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/framework\/assets\/scss\/global-scss\/modules\/forms\/gforms\/_errors.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/framework\/assets\/scss\/global-scss\/modules\/forms\/css\/_errors.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/framework\/assets\/scss\/global-scss\/modules\/forms\/gforms\/_file-upload.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/framework\/assets\/scss\/global-scss\/modules\/forms\/css\/_file-upload.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/framework\/assets\/scss\/global-scss\/modules\/forms\/gforms\/_mailchimp.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/framework\/assets\/scss\/global-scss\/modules\/forms\/css\/_mailchimp.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/framework\/assets\/scss\/global-scss\/modules\/forms\/gforms\/_master.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/framework\/assets\/scss\/global-scss\/modules\/forms\/css\/_master.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/framework\/assets\/scss\/global-scss\/modules\/forms\/gforms\/_multistep.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/framework\/assets\/scss\/global-scss\/modules\/forms\/css\/_multistep.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/framework\/assets\/scss\/global-scss\/modules\/forms\/gforms\/_potter-houses.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/framework\/assets\/scss\/global-scss\/modules\/forms\/css\/_potter-houses.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/framework\/assets\/scss\/global-scss\/modules\/forms\/gforms\/_vars.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/framework\/assets\/scss\/global-scss\/modules\/forms\/css\/_vars.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/framework\/assets\/scss\/global-scss\/modules\/lightbox\/*loader.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -3729,6 +3908,13 @@
 		"oAP": "\/framework\/functions\/shows\/show-schema-meta.php",
 		"oF": 0
 		},
+	"\/framework\/functions\/shows\/show-this-season-query.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/framework\/functions\/shows\/show-this-season-query.php",
+		"oF": 0
+		},
 	"\/framework\/pages\/archive\/archive-artist.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -4065,6 +4251,13 @@
 		"oAP": "\/framework\/views\/modules\/_social-footer.php",
 		"oF": 0
 		},
+	"\/framework\/views\/modules\/_this-season-card.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/framework\/views\/modules\/_this-season-card.php",
+		"oF": 0
+		},
 	"\/framework\/views\/pages\/about\/_about-articles.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -4254,6 +4447,13 @@
 		"oAP": "\/framework\/views\/pages\/home\/_long-description.php",
 		"oF": 0
 		},
+	"\/framework\/views\/pages\/home\/_this-season.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/framework\/views\/pages\/home\/_this-season.php",
+		"oF": 0
+		},
 	"\/framework\/views\/pages\/instagram\/_instagram-award.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -4357,6 +4557,13 @@
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/framework\/views\/posts\/shows\/_single-action-bar.php",
+		"oF": 0
+		},
+	"\/framework\/views\/posts\/shows\/_single-articles.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/framework\/views\/posts\/shows\/_single-articles.php",
 		"oF": 0
 		},
 	"\/framework\/views\/posts\/shows\/_single-artist-feed.php": {

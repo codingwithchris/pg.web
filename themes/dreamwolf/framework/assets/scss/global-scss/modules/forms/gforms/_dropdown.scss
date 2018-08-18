@@ -1,0 +1,124 @@
+ /*------------------------------------------------
+ * Gravity Forms | Dropdown Build
+ * ----------------------------------------------*/
+
+ //Chosen Wrapper
+  .gform_wrapper form{
+
+  	.chosen-container,
+  	a.chosen-single{
+	  	background: $gray !important;
+	  	box-shadow: none !important;
+	  	border: none !important;
+	  	border-radius: 0 !important;
+	  	color: lighten( $m-gray, 20% ) !important;
+	  	font-size: 13px !important;
+	  	padding: em( 15 ) em( 10 );
+	  	text-transform: uppercase;
+	  	transition: all .1s ease-in-out;
+	  	letter-spacing: 1px;
+
+  	}
+
+  	.chosen-container{
+	  	border-bottom: 3px solid $l-green !important;
+
+	  	&:hover{
+		  	background: lighten( $gray, 4% ) !important;
+
+		  	a.chosen-single{
+			  	background: lighten( $gray, 4% ) !important;
+		  	}
+
+	  	}
+
+  	}
+
+ }
+
+ //Style Dropdowns Specific to Projects
+ .project-dropdown{
+
+	 margin-top: em( 10 );
+
+ 	&.-type{
+	 margin-top: em( 35 );
+	 }
+
+
+ }
+
+
+ //Chosen Dropdown Background
+ .gform_wrapper form{
+
+	 .chosen-drop{
+		background: $gray !important;
+	  	box-shadow: none !important;
+	  	border: none !important;
+	  	border-radius: 0 !important;
+	  	color: lighten( $m-gray, 20% ) !important;
+	  	text-transform: uppercase;
+	  	margin-top: 3px !important;
+	 }
+
+ }
+
+ //Chosen Search Box
+.gform_wrapper form{
+
+	.chosen-search{
+
+		display: none;
+
+	}
+
+}
+
+
+//Chosen Dropdown List
+.gform_wrapper form{
+
+
+	//UL Wrapper
+	.chosen-results{
+		box-shadow: inset 0px -4px 0px 0px $m-gray;
+		padding-left: 0 !important;
+
+		//li wrapper
+		.active-result{
+			border-radius: 0 !important;
+			box-shadow: none !important;
+			margin-bottom:0 !important;
+			transition: all .25s ease-in-out !important;
+			padding: em(15 ) !important;
+
+			&:hover{
+				background: darken( $l-green, 5% ) !important;
+				color: lighten( $m-gray, 35% ) !important;
+			}
+
+			//Currently Selected Results
+			&.result-selected{
+				background: lighten( $gray, 10% ) !important;
+				box-shadow: none !important;
+				color: $l-gray !important;
+
+				&:hover{
+					background: lighten( $gray, 20% ) !important;
+				}
+
+			}
+
+		}//.active-results
+
+	}//.chosen-results
+
+	// Highlited Results
+	.chosen-results li.highlighted{
+		background-image: none !important;
+		background-color: darken( $l-green, 5% ) !important;
+		background: darken( $l-green, 5% ) !important;
+	}
+
+}
