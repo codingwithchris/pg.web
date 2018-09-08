@@ -14,4 +14,3 @@
 <div id="show-<?php the_id(); ?>"  class="pg-post-item -<?php echo wolf_get_current_post_type(); ?> container -small -width">
 		<?php wolf_get_post_view( 'artist', '_archive-output' ); ?>
 </div>
-<?php?>
