@@ -22,12 +22,12 @@ return array(
 	'env' => array(
 
 		// An array of potential dev environments
-		'dev'	=> array( 
+		'dev'	=> array(
 			'.local',
 			'.dev',
 			'localhost:3000',
 		),
-		
+
 	),
 
 	'modules'	=> array(
@@ -35,9 +35,10 @@ return array(
 		//'analytics',
 		'artists',
 		//'classes',
+		'locations',
 		'shows'
 		//'sponsors',
-		
+
 	)
 
 );

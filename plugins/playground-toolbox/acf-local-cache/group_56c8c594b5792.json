@@ -3,45 +3,9 @@
     "title": "Location Info",
     "fields": [
         {
-            "key": "field_56c8c6bdcbfb8",
-            "label": "Location Description",
-            "name": "location_description",
-            "type": "wysiwyg",
-            "instructions": "",
-            "required": 0,
-            "conditional_logic": 0,
-            "wrapper": {
-                "width": "",
-                "class": "",
-                "id": ""
-            },
-            "default_value": "",
-            "tabs": "text",
-            "toolbar": "basic",
-            "media_upload": 0
-        },
-        {
-            "key": "field_56c8c649aba8f",
-            "label": "Location Address",
-            "name": "location_address",
-            "type": "wysiwyg",
-            "instructions": "",
-            "required": 0,
-            "conditional_logic": 0,
-            "wrapper": {
-                "width": "",
-                "class": "",
-                "id": ""
-            },
-            "default_value": "",
-            "tabs": "text",
-            "toolbar": "basic",
-            "media_upload": 0
-        },
-        {
             "key": "field_56c8c5a0352f3",
             "label": "Google Maps Link",
-            "name": "location_map_link",
+            "name": "location_gmap_link",
             "type": "url",
             "instructions": "",
             "required": 0,
@@ -53,133 +17,6 @@
             },
             "default_value": "",
             "placeholder": ""
-        },
-        {
-            "key": "field_56c8c7e176702",
-            "label": "Location Website",
-            "name": "location_website",
-            "type": "url",
-            "instructions": "",
-            "required": 0,
-            "conditional_logic": 0,
-            "wrapper": {
-                "width": "",
-                "class": "",
-                "id": ""
-            },
-            "default_value": "",
-            "placeholder": ""
-        },
-        {
-            "key": "field_56c8c5b5352f4",
-            "label": "Location Twitter Link",
-            "name": "location_twitter",
-            "type": "url",
-            "instructions": "",
-            "required": 0,
-            "conditional_logic": 0,
-            "wrapper": {
-                "width": "",
-                "class": "",
-                "id": ""
-            },
-            "default_value": "",
-            "placeholder": ""
-        },
-        {
-            "key": "field_56c8c5cc352f5",
-            "label": "Location Instagram Link",
-            "name": "location_instagram",
-            "type": "url",
-            "instructions": "",
-            "required": 0,
-            "conditional_logic": 0,
-            "wrapper": {
-                "width": "",
-                "class": "",
-                "id": ""
-            },
-            "default_value": "",
-            "placeholder": ""
-        },
-        {
-            "key": "field_56c8c5ea352f6",
-            "label": "Location Facebook Page Link",
-            "name": "location_fb",
-            "type": "url",
-            "instructions": "",
-            "required": 0,
-            "conditional_logic": 0,
-            "wrapper": {
-                "width": "",
-                "class": "",
-                "id": ""
-            },
-            "default_value": "",
-            "placeholder": ""
-        },
-        {
-            "key": "field_56c8c5f7352f7",
-            "label": "Location Phone Number",
-            "name": "location_phone_number",
-            "type": "text",
-            "instructions": "",
-            "required": 0,
-            "conditional_logic": 0,
-            "wrapper": {
-                "width": "",
-                "class": "",
-                "id": ""
-            },
-            "default_value": "",
-            "placeholder": "",
-            "prepend": "",
-            "append": "",
-            "maxlength": "",
-            "readonly": 0,
-            "disabled": 0
-        },
-        {
-            "key": "field_56c8c607352f8",
-            "label": "Location Email",
-            "name": "location_email",
-            "type": "email",
-            "instructions": "",
-            "required": 0,
-            "conditional_logic": 0,
-            "wrapper": {
-                "width": "",
-                "class": "",
-                "id": ""
-            },
-            "default_value": "",
-            "placeholder": "",
-            "prepend": "",
-            "append": ""
-        },
-        {
-            "key": "field_56c8c675d008c",
-            "label": "Location Map Image",
-            "name": "location_image",
-            "type": "image",
-            "instructions": "",
-            "required": 0,
-            "conditional_logic": 0,
-            "wrapper": {
-                "width": "",
-                "class": "",
-                "id": ""
-            },
-            "return_format": "array",
-            "preview_size": "thumbnail",
-            "library": "all",
-            "min_width": "",
-            "min_height": "",
-            "min_size": "",
-            "max_width": "",
-            "max_height": "",
-            "max_size": "",
-            "mime_types": ""
         }
     ],
     "location": [
@@ -197,9 +34,15 @@
     "label_placement": "top",
     "instruction_placement": "label",
     "hide_on_screen": [
-        "the_content"
+        "the_content",
+        "excerpt",
+        "discussion",
+        "comments",
+        "page_attributes",
+        "categories",
+        "tags"
     ],
     "active": 1,
     "description": "",
-    "modified": 1456000310
+    "modified": 1536464251
 }

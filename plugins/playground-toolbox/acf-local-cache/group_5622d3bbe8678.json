@@ -570,7 +570,7 @@
         },
         {
             "key": "field_5823b5e9054fb",
-            "label": "Venue",
+            "label": "Location",
             "name": "",
             "type": "tab",
             "instructions": "",
@@ -585,10 +585,10 @@
             "endpoint": 0
         },
         {
-            "key": "field_5823b603054fc",
-            "label": "Venue Name",
-            "name": "show_venue_name",
-            "type": "text",
+            "key": "field_5b945d8c2e98b",
+            "label": "Location",
+            "name": "show_location",
+            "type": "post_object",
             "instructions": "",
             "required": 0,
             "conditional_logic": 0,
@@ -597,62 +597,14 @@
                 "class": "",
                 "id": ""
             },
-            "default_value": "",
-            "maxlength": "",
-            "placeholder": "",
-            "prepend": "",
-            "append": ""
-        },
-        {
-            "key": "field_5823b611054fd",
-            "label": "Venue Address",
-            "name": "show_venue_address",
-            "type": "textarea",
-            "instructions": "",
-            "required": 0,
-            "conditional_logic": 0,
-            "wrapper": {
-                "width": "",
-                "class": "",
-                "id": ""
-            },
-            "default_value": "",
-            "new_lines": "br",
-            "maxlength": "",
-            "placeholder": "",
-            "rows": ""
-        },
-        {
-            "key": "field_5823b6898f42b",
-            "label": "Venue Info Link",
-            "name": "show_venue_info_link",
-            "type": "url",
-            "instructions": "",
-            "required": 0,
-            "conditional_logic": 0,
-            "wrapper": {
-                "width": "",
-                "class": "",
-                "id": ""
-            },
-            "default_value": "",
-            "placeholder": ""
-        },
-        {
-            "key": "field_5823b619054fe",
-            "label": "Venue Directions Link - Gmaps",
-            "name": "show_venue_gmaps_directions_link",
-            "type": "url",
-            "instructions": "",
-            "required": 0,
-            "conditional_logic": 0,
-            "wrapper": {
-                "width": "",
-                "class": "",
-                "id": ""
-            },
-            "default_value": "",
-            "placeholder": ""
+            "post_type": [
+                "locations"
+            ],
+            "taxonomy": [],
+            "allow_null": 0,
+            "multiple": 0,
+            "return_format": "id",
+            "ui": 1
         },
         {
             "key": "field_55fd4afa1881d",
@@ -1524,5 +1476,5 @@
     ],
     "active": 1,
     "description": "",
-    "modified": 1527996030
+    "modified": 1536465592
 }

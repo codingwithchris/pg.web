@@ -1,15 +1,15 @@
 <?php
 /**
  * @since 1.0.0
- * @package Playground\Shows
+ * @package Playground\Locations
  * @author  Christopher Hahn - The Playground Theatre
  *
- * Module Name: Shows
- * Module Description: This Module handles all Show related functionality.
+ * Module Name: Locations
+ * Module Description: This Module handles all Location related functionality.
  *
  */
 
-namespace Playground\Shows;
+namespace Playground\Locations;
 use Reactor\Factory\ModuleFactory;
 
 // If this file is called directly, abort.
@@ -17,7 +17,7 @@ if ( ! defined( 'WPINC' ) ) {
 	die( 'You cannot access this file!' );
 }
 
-class ShowsLoader extends ModuleFactory{
+class LocationsLoader extends ModuleFactory{
 
 	/**
 	 * This is where the magic happens. We define the basic
@@ -48,16 +48,16 @@ class ShowsLoader extends ModuleFactory{
  */
 function module(){
 
-    global $shows;
+    global $locations;
 
-    if( ! isset( $shows ) ){
+    if( ! isset( $locations ) ){
 
-        $shows = new ShowsLoader;
-        $shows->init_module();
+        $locations = new LocationsLoader;
+        $locations->init_module();
 
     }
 
-    return $shows;
+    return $locations;
 }
 
 module();

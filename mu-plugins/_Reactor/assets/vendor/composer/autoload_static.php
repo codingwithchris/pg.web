@@ -15,6 +15,7 @@ class ComposerStaticInitb8f2a65207134e3530900a00dd5af2c9
         array (
             'Sober\\Intervention\\Module\\' => 26,
             'Sober\\Intervention\\' => 19,
+            'Samrap\\Acf\\' => 11,
         ),
         'P' => 
         array (
@@ -34,6 +35,10 @@ class ComposerStaticInitb8f2a65207134e3530900a00dd5af2c9
         'Sober\\Intervention\\' => 
         array (
             0 => __DIR__ . '/..' . '/soberwp/intervention/src',
+        ),
+        'Samrap\\Acf\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/samrap/acf-fluent/src',
         ),
         'PostTypes\\' => 
         array (

@@ -1,4 +1,5 @@
 <?php
+use Playground\Locations;
 
 // Module Helpers
 // ============
@@ -80,7 +81,7 @@ function wolf_get_show_ticket_module( $ticket_text_mod = null, $fa_class = null,
 // Directions Module
 // @param - string $separator - type of separator between start and end date
 // ===========================================================
-function wolf_get_show_directions_module( $dir_text = null, $fa_class = null, $class_mod = null ){
+function wolf_get_show_directions_module( $show_id, $dir_text = null, $fa_class = null, $class_mod = null ){
 
 	$dir_module = '';
 
