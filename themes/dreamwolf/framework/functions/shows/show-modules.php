@@ -78,28 +78,6 @@ function wolf_get_show_ticket_module( $ticket_text_mod = null, $fa_class = null,
 
 }
 
-// Directions Module
-// @param - string $separator - type of separator between start and end date
-// ===========================================================
-function wolf_get_show_directions_module( $show_id, $dir_text = null, $fa_class = null, $class_mod = null ){
-
-	$dir_module = '';
-
-	if( wolf_get_show_directions() ){
-
-		$dir_module = '<a href="'.wolf_get_show_directions().'" target="_blank" class="'.$class_mod.'">';
-			$dir_module .=  wolf_get_icon( $fa_class );
-			$dir_module .=  $dir_text;
-		$dir_module .= '</a>';
-
-		$dir_module =  wolf_sanatize_show_module( $dir_module );
-
-	}
-
-	return $dir_module;
-
-}
-
 
 // FB Event Module
 // @param - string $separator - type of separator between start and end date
