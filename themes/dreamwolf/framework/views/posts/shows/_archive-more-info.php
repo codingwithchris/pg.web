@@ -4,6 +4,8 @@
 // Display the More Info and Tickets buttons conditionally based on current show status
 // and whether or not tickets are actualy available.
 // ===================================================================
+use Samrap\Acf\Acf;
+use Playground\Locations;
 
 $status = wolf_get_show_status();
 $link 	  = get_the_permalink();
@@ -13,6 +15,12 @@ $more_text = 'See What You Missed';
 if( ! wolf_show_is_past() ){
 	$more_text = 'More Info';
 }
+
+// Get the ID of our location
+$location_id = Acf::field( 'show_location', $post->ID )->get();
+
+// Get our location data
+$location = new Locations\Location( $location_id );
 
 ?>
 
@@ -47,7 +55,10 @@ if( ! wolf_show_is_past() ){
 		?>
 
 		<span class="action-sep _gray"> | </span>
-		<?php echo wolf_get_show_directions_module('Directions', '', 'tickets'); ?>
+
+		<a href="<?= $location->get_gmap_link(); ?>" target="_blank" class="tickets">
+			DIRECTIONS
+		</a>
 
 	<?php } ?>
 
