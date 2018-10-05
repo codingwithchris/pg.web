@@ -36,6 +36,7 @@ return array(
 		'artists',
 		//'classes',
 		'locations',
+		'seasons',
 		'shows'
 		//'sponsors',
 

@@ -1,4 +1,6 @@
 <?php
+use Playground\Seasons;
+
 // =============================================================================
 // FRAMEWORK/VIEWS/HEADERS/HEADER-ARCHIVE-SHOW.PHP
 // ----------------------------------------------------------------------------
@@ -20,29 +22,6 @@
 // Get the Currently Queried Term ID
 $current_term_id = $wp_query->get_queried_object_id();
 
-// If the Currently Queried Season ID is equal to the current season ID, we
-// are loading the current season
-// @uses wolf_get_current_season_id() -> functions/shows/show-core.php
-if( is_tax() && ( wolf_get_current_season_id() == $current_term_id ) ){
-
-	$title = single_cat_title( '', false );
-	$sub = 'current season';
-
-// If we are still filtering, and not in the current season, then we are
-// loading an archive
-} elseif( is_tax() ) {
-
-	$title = single_cat_title( '', false );
-	$sub = 'season archive';
-
-// If we are not filtering by season, we are displaying all of the Shows!
-} else {
-
-	$title = 'The Shows';
-	$sub= '';
-
-}
-
 // Get Show Archive Header Image
 if( get_field( 'show_archive_header_image', 'options') ){
 
@@ -53,6 +32,7 @@ if( get_field( 'show_archive_header_image', 'options') ){
 
 }
 
+$season = new Playground\Seasons\Season( $current_term_id );
 ?>
 
 <div id="archive-show-header" class="page-header -inner -archive _before _flex _flex-center-v _bgCover" style="background-image:url(<?php echo $header_image_url; ?>)">
@@ -61,10 +41,9 @@ if( get_field( 'show_archive_header_image', 'options') ){
 			<div class="header-inner-wrap -fill">
 
 				<h1 class="title-group">
-					<span class="h1 -grunge title _mbn"><?php echo $title; ?></span>
-					<span class="h5 sub mtn"><?php echo $sub; ?></span>
+					<span class="h1 -grunge title _mbn"><?php echo $season->get_name(); ?></span>
+					<span class="h5 sub mtn"><?= $season->get_tagline(); ?></span>
 				</h1>
-
 
 		</div>
 	</div>

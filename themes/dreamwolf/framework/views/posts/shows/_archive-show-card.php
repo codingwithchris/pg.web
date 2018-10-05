@@ -12,7 +12,6 @@ if ( wolf_show_is_playing()  ){
 if ( wolf_show_is_rehearsing() ){
 	$status_txt = 'in rehearsal';
 }
-
 ?>
 
 <div id="show-<?php the_id(); ?>" <?php post_class( "pg-post-item -$status _before"); ?>>
