@@ -1,75 +1,67 @@
 .post-type-archive-shows .playground-main,
-.tax-season .playground-main{
-	background: $l-gray;
+.tax-season .playground-main {
+  background: $l-gray;
 }
 
 .post-type-archive-shows .pg-post-item.-future,
-.tax-season .pg-post-item.-future{
-	border-bottom: 5px solid $m-gray;
+.tax-season .pg-post-item.-future {
+  border-bottom: 5px solid $m-gray;
 }
 
 .post-type-archive-shows .pg-post-item.-playing,
-.tax-season .pg-post-item.-playing{
-	border-bottom: 8px solid $el-green;
+.tax-season .pg-post-item.-playing {
+  border-bottom: 8px solid $el-green;
 }
 
 .post-type-archive-shows .pg-post-item.-rehearsing,
-.tax-season .pg-post-item.-rehearsing{
-	border-bottom: 5px solid $green;
+.tax-season .pg-post-item.-rehearsing {
+  border-bottom: 5px solid $green;
 }
 
-.show-actions{
-	position: relative;
-	text-transform: uppercase;
-	z-index: $z-below-nav;
+.show-actions {
+  position: relative;
+  text-transform: uppercase;
+  z-index: $z-below-nav;
 
-	>.action-sep{
-		position: relative;
-		top: -1px;
-	}
+  > .action-sep {
+    position: relative;
+    top: -1px;
+  }
 
-	>.more,
-	>.tickets{
-		color: $green;
-		font-size: rem( 15 );
-		transition: .2s ease-in-out;
-	}
-
+  > .more,
+  > .tickets {
+    color: $green;
+    font-size: rem(15);
+    transition: 0.2s ease-in-out;
+  }
 }
 
 // Show Status
 // ==========
 
-	// ====
-	// Past
-	// ====
-	.show-actions.-past{
-		>.more,
-		>.tickets{
-			color: $gray;
+// ====
+// Past
+// ====
+.show-actions.-past {
+  > .more,
+  > .tickets {
+    color: $gray;
 
-			&:hover{
-				color:$m-gray;
-			}
-
-		}
-	}
-
-
-
+    &:hover {
+      color: $m-gray;
+    }
+  }
+}
 
 // Archive Wrapper
 
-.post-type-archive-shows .shows-inner-wrapper{
-
-	margin-bottom: 96px;
-	margin-top: 96px;
-
+.post-type-archive-shows .shows-inner-wrapper,
+.tax-season .shows-inner-wrapper {
+  margin-bottom: 96px;
+  margin-top: 96px;
 }
 
 // The first past show
-.post-type-archive-shows .shows-inner-wrapper .pg-post-item:not(.-past){
-
-	margin-bottom: 64px;
-
+.post-type-archive-shows .shows-inner-wrapper .pg-post-item:not(.-past) {
+  margin-bottom: 64px;
 }
